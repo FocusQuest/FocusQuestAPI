@@ -12,7 +12,7 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 
 ## Equipe
 
-<img src="/doc/assets/ProductBacklog.jpeg.png" width="400px">
+<img src="/doc/assets/ProductBacklog.jpeg.png" width="700px">
 
 ## Backlog do produto
 
