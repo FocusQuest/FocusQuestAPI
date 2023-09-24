@@ -27,6 +27,9 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 
 <img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
 
+## MVP
+
+link: https://youtu.be/UBVSmpkCrV4?si=x-jm1PkkIDxhT3tz 
 
 ## Relatório de entregas
 
