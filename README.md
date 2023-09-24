@@ -5,12 +5,12 @@
 - [Backlog do produto](#Backlog-do-produto)
 - [Relatório de entregas](#Relatório-de-entregas)
 
-## Sobre o projeto
+## :bookmark_tabs: Sobre o projeto
 
 Projeto desenvolvido por alunos do 2º semestre do curso de Desenvolvimento de Software Multiplataforma(DSM), da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/)
 o Projeto consiste na criação de uma aplicação de gerenciamento de chamados, o qual foi escolhido para ser direcionado à escolas e instituições de ensino. Deve ser utilizado NodeJS, JavaScript e React para desenvolver essa aplicação, além de banco de dados relacional, a fim de acrescentar ao conhecimento do semestre.
 
-## Equipe
+##  :busts_in_silhouette: Equipe
 
 |     | Nome           | Função       | GitHub  | Linkedin                              |
 | --- | --------------| ------------| ---------------------------------------------- |---------------|
@@ -22,16 +22,16 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 | <img src="/doc/assets/katiane.jpg" width="250px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
 | <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
-## Backlog do produto
+## :dart: Backlog do produto
 
 
 <img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
 
-## MVP
+## :desktop_computer: MVP
 
 link: https://youtu.be/UBVSmpkCrV4?si=x-jm1PkkIDxhT3tz 
 
-## Relatório de entregas
+## 📌 Relatório de entregas
 
 | Links | Período | Status |
 |:-----:|:----------:|:---------:|
