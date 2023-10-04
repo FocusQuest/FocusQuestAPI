@@ -1,0 +1,8 @@
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+"nomeUsuario": "Valquíria Souza",
+"emailUsuario": "valq1980@ig.com.br",
+"telefoneUsuario": "11991886655"
+}

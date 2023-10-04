@@ -1,0 +1,56 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+
+
+model Chamado {
+  id                  Int       @id @default(autoincrement())
+  descChamado         String
+  dataAberturaChamado DateTime  @default(now())
+  usuario             Usuario   @relation(fields: [idUsuario], references: [id])
+  idUsuario           Int
+  categoria           Categoria @relation(fields: [idCategoria], references: [id])
+  idCategoria         Int
+  andamento           Andamento @relation(fields: [idAndamento], references: [id])
+  idAndamento         Int       
+  tratInicio          DateTime?
+  tratFim             DateTime?
+  suporte             Suporte?  @relation(fields: [idSuporte], references: [id])
+  idSuporte           Int?
+}
+
+model Suporte {
+  id           Int       @id @default(autoincrement())
+  nomeSuporte  String
+  cargoSuporte String
+  chamados     Chamado[] // Added opposite relation field
+}
+
+model Usuario {
+  id              Int       @id @default(autoincrement())
+  nomeUsuario     String
+  emailUsuario    String    @unique
+  telefoneUsuario String    @unique
+  chamados        Chamado[]
+}
+
+model Andamento {
+  id            Int       @id @default(autoincrement())
+  descAndamento String?
+  chamados      Chamado[] // Added opposite relation field
+}
+
+model Categoria {
+  id            Int       @id @default(autoincrement())
+  descCategoria String?
+  chamados      Chamado[] // Added opposite relation field
+}
