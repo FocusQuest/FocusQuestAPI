@@ -1,6 +1,6 @@
 PRISMA: AJUSTES NO BANCO
 
 -> deixar por padrão o ANDAMENTO em aberto quando o CHAMADO é criado. Não sei se é complicado fazer isso. 
-UNICA PENDÊNCIA
+acho que única pendência no banco
 
 
