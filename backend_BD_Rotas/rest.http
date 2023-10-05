@@ -7,3 +7,13 @@ Content-Type: application/json
 "idUsuario":2,
 "idCategoria": 1
 }
+
+###
+
+GET http://localhost:3000/chamados/1
+
+
+###
+
+
+GET http://localhost:3000/usuarios/1

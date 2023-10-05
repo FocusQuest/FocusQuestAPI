@@ -24,8 +24,18 @@ router.get('/chamados', async (req: Request, res: Response, next: NextFunction) 
 
 // rota para VER CHAMADO específico
 router.get('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
-  res.send({ message: 'Ok api is working 🚀' });
-});
+  try {
+    const {id} = req.params
+    const chamado = await prisma.chamado.findUnique({
+      where: { 
+        id: Number(id) 
+      }
+    })
+    res.json(chamado)
+  } catch (error) {
+    next(error) 
+    }
+  });
 
 // rota para CRIAR CHAMADO
 router.post('/chamados', async (req: Request, res: Response, next: NextFunction) => {
@@ -72,14 +82,19 @@ router.get('/usuarios', async (req: Request, res: Response, next: NextFunction) 
 });
 
 // rota para VER USUARIO específico
-// router.get('/usuarios/:id', async (req: Request, res: Response, next: NextFunction) => {
-//   try {
-//     const usuario = await prisma.usuario.findUnique( )
-//     res.json(usuario)
-//   } catch (error) {
-//     next(error)
-//   }
-// });
+router.get('/usuarios/:id', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const {id} = req.params
+    const usuario = await prisma.usuario.findUnique({
+      where: { 
+        id: Number(id) 
+      }
+    })
+    res.json(usuario)
+  } catch (error) {
+    next(error) 
+    }
+  });
 
 // rota para CRIAR USUARIO
 router.post('/usuarios', async (req: Request, res: Response, next: NextFunction) => {
