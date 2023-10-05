@@ -10,13 +10,38 @@ Content-Type: application/json
 
 ###
 
+
+PATCH http://localhost:3000/usuarios/2
+Content-Type: application/json
+
+{
+"nomeUsuario": "Luiz"
+}
+
+
+
+###
+
+
 GET http://localhost:3000/chamados/1
 
 
 ###
 
 
-GET http://localhost:3000/usuarios/10
+GET http://localhost:3000/usuarios/2
+
+
+###
+
+
+PATCH http://localhost:3000/usuarios/2
+Content-Type: application/json
+
+{
+"nomeUsuario": "Luiz"
+}
+
 
 
 ###
@@ -26,4 +51,22 @@ DELETE http://localhost:3000/chamados/3
 
 ###
 
+
 DELETE http://localhost:3000/usuarios/3
+
+
+###
+
+
+PATCH http://localhost:3000/chamados/2
+Content-Type: application/json
+
+{
+"idSuporte": 2
+}
+
+
+###
+
+
+

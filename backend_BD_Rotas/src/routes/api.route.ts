@@ -74,8 +74,21 @@ router.delete('/chamados/:id', async (req: Request, res: Response, next: NextFun
 
 // rota para ATUALIZAR CHAMADO
 router.patch('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
-  res.send({ message: 'Ok api is working 🚀' });
-});
+  try {
+    const {id} = req.params
+    const chamado = await prisma.chamado.update({
+      where: {
+        id: Number(id),
+      },
+      data: req.body // no json da req, podem ser passados o idSuporte, o tratInicio e o tratFim, p.ex.
+    })
+      //ver como faço para incluir tratInicio aqui com a data now() 
+    // console.log(chamado.idAndamento)    
+    res.json(chamado)
+} catch (error) {
+  next(error)
+  }
+})
 
 // rota para VER todos os USUARIOS
 router.get('/usuarios', async (req: Request, res: Response, next: NextFunction) => {
@@ -143,9 +156,20 @@ router.delete('/usuarios/:id', async (req: Request, res: Response, next: NextFun
 });
 
 // rota para ATUALIZAR USUARIO
-router.patch('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
-  res.send({ message: 'Ok api is working 🚀' });
-});
+router.patch('/usuarios/:id', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const {id} = req.params
+    const usuario = await prisma.usuario.update({
+      where: {
+        id: Number(id),
+      },
+      data: req.body
+  })
+  res.json(usuario)
+  } catch (error) {
+    next(error)
+  }
+})
 
 
 module.exports = router;
