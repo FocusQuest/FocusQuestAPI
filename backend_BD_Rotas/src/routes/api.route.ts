@@ -55,10 +55,22 @@ router.post('/chamados', async (req: Request, res: Response, next: NextFunction)
   }
 });
   
+
 // rota para EXCLUIR CHAMADO
 router.delete('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
-  res.send({ message: 'Ok api is working 🚀' });
+  try {
+    const {id} = req.params
+    const chamadoExcluido = await prisma.chamado.delete({
+      where: { 
+        id: Number(id) 
+    }
+  })
+  res.json(chamadoExcluido)
+} catch (error) {
+  next(error) 
+  }
 });
+
 
 // rota para ATUALIZAR CHAMADO
 router.patch('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
@@ -72,14 +84,17 @@ router.get('/usuarios', async (req: Request, res: Response, next: NextFunction) 
     // a linha abaixo inclui a tabela chamado para o usuário
       include: { chamados: true }
     })
-    const chamados = await prisma.chamado.findMany({
-      include: { usuario: true }
-    })
-    res.json({ usuarios, chamados } )
+    res.json({ usuarios })
   } catch (error) {
     next(error)
   }
 });
+// const chamados = await prisma.chamado.findMany({
+//   include: { usuario: true }
+// })
+// res.json({ usuarios, chamados })
+
+
 
 // rota para VER USUARIO específico
 router.get('/usuarios/:id', async (req: Request, res: Response, next: NextFunction) => {
@@ -113,8 +128,18 @@ router.post('/usuarios', async (req: Request, res: Response, next: NextFunction)
 });
 
 // rota para EXCLUIR USUARIO
-router.delete('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
-  res.send({ message: 'Ok api is working 🚀' });
+router.delete('/usuarios/:id', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const {id} = req.params
+    const usuarioExcluido = await prisma.usuario.delete({
+      where: { 
+        id: Number(id) 
+    }
+  })
+  res.json(usuarioExcluido)
+} catch (error) {
+  next(error) 
+  }
 });
 
 // rota para ATUALIZAR USUARIO

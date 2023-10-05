@@ -16,4 +16,14 @@ GET http://localhost:3000/chamados/1
 ###
 
 
-GET http://localhost:3000/usuarios/1
+GET http://localhost:3000/usuarios/10
+
+
+###
+
+DELETE http://localhost:3000/chamados/3
+
+
+###
+
+DELETE http://localhost:3000/usuarios/3
