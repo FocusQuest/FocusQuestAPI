@@ -2,9 +2,8 @@ POST http://localhost:3000/chamados
 Content-Type: application/json
 
 {
-"descChamado": "O computador está muito lento",
+"descChamado": "O volume da caixa de som não abaixa",
 // dataAberturaChamado DateTime  @default(now())
-"idUsuario": 4,
-"idCategoria": 2,
-"idAndamento": 1
+"idUsuario":2,
+"idCategoria": 1
 }

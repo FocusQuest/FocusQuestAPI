@@ -36,7 +36,7 @@ router.post('/chamados', async (req: Request, res: Response, next: NextFunction)
         // dataAberturaChamado DateTime  @default(now())
         idUsuario: req.body.idUsuario,
         idCategoria: req.body.idCategoria,
-        idAndamento: req.body.idAndamento
+        // idAndamento: req.body.idAndamento
       },
   })
   res.json(chamado)

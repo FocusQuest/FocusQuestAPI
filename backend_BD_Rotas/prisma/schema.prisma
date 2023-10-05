@@ -21,7 +21,7 @@ model Chamado {
   categoria           Categoria @relation(fields: [idCategoria], references: [id])
   idCategoria         Int
   andamento           Andamento @relation(fields: [idAndamento], references: [id])
-  idAndamento         Int       
+  idAndamento         Int       @default(1)       
   tratInicio          DateTime?
   tratFim             DateTime?
   suporte             Suporte?  @relation(fields: [idSuporte], references: [id])
@@ -39,18 +39,18 @@ model Usuario {
   id              Int       @id @default(autoincrement())
   nomeUsuario     String
   emailUsuario    String    @unique
-  telefoneUsuario String    @unique
+  telefoneUsuario String
   chamados        Chamado[]
 }
 
 model Andamento {
   id            Int       @id @default(autoincrement())
-  descAndamento String?
+  descAndamento String
   chamados      Chamado[] // Added opposite relation field
 }
 
 model Categoria {
   id            Int       @id @default(autoincrement())
-  descCategoria String?
+  descCategoria String
   chamados      Chamado[] // Added opposite relation field
 }
