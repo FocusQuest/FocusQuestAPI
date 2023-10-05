@@ -28,12 +28,22 @@ router.get('/chamados/:id', async (req: Request, res: Response, next: NextFuncti
 });
 
 // rota para CRIAR CHAMADO
-// router.post('/chamados', async (req: Request, res: Response, next: NextFunction) => {
-  // try {
-    
-  // } catch (error) {
-  //   next(error)
-  // } 
+router.post('/chamados', async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const chamado = await prisma.chamado.create({
+      data: {
+        descChamado: req.body.descChamado,
+        // dataAberturaChamado DateTime  @default(now())
+        idUsuario: req.body.idUsuario,
+        idCategoria: req.body.idCategoria,
+        idAndamento: req.body.idAndamento
+      },
+  })
+  res.json(chamado)
+} catch (error) {
+    next(error)
+  }
+});
   
 // rota para EXCLUIR CHAMADO
 router.delete('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {

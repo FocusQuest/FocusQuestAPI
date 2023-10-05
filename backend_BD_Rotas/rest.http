@@ -1,8 +1,10 @@
-POST http://localhost:3000/usuarios
+POST http://localhost:3000/chamados
 Content-Type: application/json
 
 {
-"nomeUsuario": "Valquíria Souza",
-"emailUsuario": "valq1980@ig.com.br",
-"telefoneUsuario": "11991886655"
+"descChamado": "O computador está muito lento",
+// dataAberturaChamado DateTime  @default(now())
+"idUsuario": 4,
+"idCategoria": 2,
+"idAndamento": 1
 }
