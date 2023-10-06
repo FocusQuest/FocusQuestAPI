@@ -1,17 +1,29 @@
-import React from 'react';
+import React from "react";
+import GlobalStyle from "./styles/global";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Nav from 'react-bootstrap/Nav';
+import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './App.css';
-import './index.css';
-import Painel from './components/Meu_painel';
 import Abrir from './components/Abrir_chamado';
 import Duvidas from './components/Duvidas_frequentes';
+import Painel from './components/Meu_painel';
 import Chamados from './components/Meus_chamados';
-import {BrowserRouter as Router, Routes, Link, Route} from  'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
+import './index.css';
 import './menu.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from "./pages/Home";
+import Signin from "./pages/Signin";
+import Signup from "./pages/Signup";
 
 
 
+function RoutesApp() {
+  return (
+      <>
+          <Routes />
+          <GlobalStyle />
+      </>
+  );
+}
 function App() {
   return (
     <div className="App">
@@ -26,7 +38,10 @@ function App() {
         </div>
 
         <Routes>
-          <Route path='/Meu_painel' index element={<Painel/>}></Route>
+          <Route path='/' element={<Home/>}></Route>
+          <Route path='/Signin' element={<Signin/>}></Route>
+          <Route path='/' element={<Signup/>}></Route>
+          <Route path='/Meu_painel' element={<Painel/>}></Route>
           <Route path='/Duvidas' element={<Duvidas/>}></Route>
           <Route path='/Abrir_chamado' element={<Abrir/>}></Route>
           <Route path='/Meus_chamados' element={<Chamados/>}></Route>
@@ -38,4 +53,7 @@ function App() {
   );
 }
 
+
+
 export default App;
+
