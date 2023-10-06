@@ -1,0 +1,30 @@
+#sidebar {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+}
+
+/* .sidebar-header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+}
+
+.list-unstyled a:hover {
+    background-color: #495057;
+} */
