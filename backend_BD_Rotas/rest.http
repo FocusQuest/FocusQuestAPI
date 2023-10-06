@@ -58,6 +58,7 @@ DELETE http://localhost:3000/usuarios/3
 ###
 
 
+# inclusão do idSuporte, ou seja, do técnico responsável, ao chamado, quando ele assumir a tarefa.
 PATCH http://localhost:3000/chamados/2
 Content-Type: application/json
 
