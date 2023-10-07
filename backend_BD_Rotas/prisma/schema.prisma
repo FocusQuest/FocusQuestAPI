@@ -48,11 +48,23 @@ model Computador {
   chamados  Chamado[] // Added opposite relation field
 }
 
+model Admin {
+  id           Int       @id @default(1) @unique 
+  nomeAdmin    String
+  emailAdmin   String    @unique
+  telefoneAdmin String
+  nivelAcesso  NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
+  idNivelAcesso Int @default(1)
+}
+
 model Suporte {
   id           Int       @id @default(autoincrement())
   nomeSuporte  String
-  cargoSuporte String
-  chamados     Chamado[] // Added opposite relation field
+  emailSuporte String
+  telefoneSuporte String
+  nivelAcesso     NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
+  idNivelAcesso   Int @default(2)
+  chamados     Chamado[]
 }
 
 model Usuario {
@@ -60,7 +72,17 @@ model Usuario {
   nomeUsuario     String
   emailUsuario    String    @unique
   telefoneUsuario String
+  nivelAcesso      NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
+  idNivelAcesso   Int @default(3) 
   chamados        Chamado[]
+}
+
+model NivelAcesso {
+  id              Int       @id @default(autoincrement())
+  descNivelAcesso String
+  admin           Admin[]
+  usuario         Usuario[]
+  suporte         Suporte[]
 }
 
 model Andamento {
