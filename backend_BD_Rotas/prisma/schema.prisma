@@ -5,27 +5,47 @@ generator client {
   provider = "prisma-client-js"
 }
 
+
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
 
-
 model Chamado {
   id                  Int       @id @default(autoincrement())
+  nomeChamado         String    
   descChamado         String
   dataAberturaChamado DateTime  @default(now())
   usuario             Usuario   @relation(fields: [idUsuario], references: [id])
   idUsuario           Int
+  lab                 Lab       @relation(fields: [idLab], references: [id])
+  idLab               Int
+  computador          Computador  @relation(fields: [idComputador], references: [id])
+  idComputador        Int
   categoria           Categoria @relation(fields: [idCategoria], references: [id])
   idCategoria         Int
   andamento           Andamento @relation(fields: [idAndamento], references: [id])
   idAndamento         Int       @default(1)       
-  tratInicio          DateTime?
-  tratFim             DateTime?
   suporte             Suporte?  @relation(fields: [idSuporte], references: [id])
   idSuporte           Int?
+  tratInicio          DateTime?
+  tratFim             DateTime?
+}
+
+model Lab {
+  id        Int       @id @default(autoincrement())
+  nomeLab   String
+  computador Computador[]
+  chamados  Chamado[] // Added opposite relation field
+}
+
+model Computador {
+  id        Int       @id @default(autoincrement())
+  nomeComp  String    @unique
+  lab       Lab       @relation(fields: [idLab], references: [id])
+  idLab     Int
+  chamados  Chamado[] // Added opposite relation field
 }
 
 model Suporte {

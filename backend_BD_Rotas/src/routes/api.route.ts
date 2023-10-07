@@ -42,11 +42,12 @@ router.post('/chamados', async (req: Request, res: Response, next: NextFunction)
   try {
     const chamado = await prisma.chamado.create({
       data: {
+        nomeChamado: req.body.descChamado,
         descChamado: req.body.descChamado,
-        // dataAberturaChamado DateTime  @default(now())
         idUsuario: req.body.idUsuario,
+        idLab: req.body.idLab,
+        idComputador: req.body.idComputador,
         idCategoria: req.body.idCategoria,
-        // idAndamento: req.body.idAndamento
       },
   })
   res.json(chamado)
@@ -106,7 +107,6 @@ router.get('/usuarios', async (req: Request, res: Response, next: NextFunction) 
 //   include: { usuario: true }
 // })
 // res.json({ usuarios, chamados })
-
 
 
 // rota para VER USUARIO específico
@@ -170,6 +170,5 @@ router.patch('/usuarios/:id', async (req: Request, res: Response, next: NextFunc
     next(error)
   }
 })
-
 
 module.exports = router;

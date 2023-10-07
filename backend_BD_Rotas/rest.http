@@ -1,12 +1,25 @@
+
 POST http://localhost:3000/chamados
 Content-Type: application/json
 
 {
-"descChamado": "O volume da caixa de som não abaixa",
-// dataAberturaChamado DateTime  @default(now())
-"idUsuario":2,
-"idCategoria": 1
+"descChamado": "Pegou fogo no meu teclado",
+"idUsuario": 1,
+"idCategoria": 3
 }
+
+
+###
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+"nomeUsuario": "Felipe",
+"emailUsuario": "felipe@ig.com",
+"telefoneUsuario": "11993354444"
+}
+
 
 ###
 
@@ -39,7 +52,7 @@ PATCH http://localhost:3000/usuarios/2
 Content-Type: application/json
 
 {
-"nomeUsuario": "Luiz"
+"emailUsuario": "luiz@gmail.com.br"
 }
 
 
@@ -63,7 +76,7 @@ PATCH http://localhost:3000/chamados/2
 Content-Type: application/json
 
 {
-"idSuporte": 2
+"idSuporte": 1
 }
 
 
