@@ -42,7 +42,7 @@ router.post('/chamados', async (req: Request, res: Response, next: NextFunction)
   try {
     const chamado = await prisma.chamado.create({
       data: {
-        nomeChamado: req.body.descChamado,
+        nomeChamado: req.body.nomeChamado,
         descChamado: req.body.descChamado,
         idUsuario: req.body.idUsuario,
         idLab: req.body.idLab,

@@ -3,24 +3,24 @@ POST http://localhost:3000/chamados
 Content-Type: application/json
 
 {
-        "nomeChamado": "Computador lento",
-        "descChamado": "O computador ficou bem mais lento de 1 mês para cá. Tudo demora muito",
-        "idUsuario": 2,
-        "idLab": 105,
-        "idComputador": 3,
-        "idCategoria": 2
+"nomeChamado": "Computador lento",
+"descChamado": "O computador ficou bem mais lento de 1 mês para cá. Tudo demora muito",
+"idUsuario": 2,
+"idLab": 2,
+"idComputador": 3,
+"idCategoria": 2
 }
 
-
 ###
+
 
 POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 {
-"nomeUsuario": "Felipe",
-"emailUsuario": "felipe@ig.com",
-"telefoneUsuario": "11993354444"
+"nomeUsuario": "Marcondes",
+"emailUsuario": "marcondes@ig.com",
+"telefoneUsuario": "11993356666"
 }
 
 
@@ -31,7 +31,7 @@ PATCH http://localhost:3000/usuarios/2
 Content-Type: application/json
 
 {
-"nomeUsuario": "Luiz"
+"nomeUsuario": "Maria de Souza Lima"
 }
 
 
@@ -39,7 +39,7 @@ Content-Type: application/json
 ###
 
 
-GET http://localhost:3000/chamados/1
+GET http://localhost:3000/chamados/3
 
 
 ###
@@ -55,14 +55,14 @@ PATCH http://localhost:3000/usuarios/2
 Content-Type: application/json
 
 {
-"emailUsuario": "luiz@gmail.com.br"
+"emailUsuario": "mariasl@gmail.com"
 }
 
 
 
 ###
 
-DELETE http://localhost:3000/chamados/3
+DELETE http://localhost:3000/chamados/4
 
 
 ###
@@ -74,12 +74,12 @@ DELETE http://localhost:3000/usuarios/3
 ###
 
 
-# inclusão do idSuporte, ou seja, do técnico responsável, ao chamado, quando ele assumir a tarefa.
-PATCH http://localhost:3000/chamados/2
+# inclusão do idSuporte (técnico responsável) ao chamado quando ele assumir a tarefa.
+PATCH http://localhost:3000/chamados/3
 Content-Type: application/json
 
 {
-"idSuporte": 1
+"idSuporte": 2
 }
 
 
