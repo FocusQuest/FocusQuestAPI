@@ -217,37 +217,37 @@ router.post(
       }
     } else if (req.params.nivelAcesso === "2") {
       try {
-        const usuario = await prisma.usuario.findUnique({
+        const suporte = await prisma.suporte.findUnique({
           where: {
-            emailUsuario: req.body.emailUsuario,
+            emailSuporte: req.body.emailSuporte,
           },
         });
-        if (!usuario) {
+        if (!suporte) {
           res.status(404).json({ msg: "Usuário não encontrado" });
         }
         const senha = req.body.senhaUsuario;
-        if (senha !== usuario?.senhaUsuario) {
+        if (senha !== suporte?.senhaSuporte) {
           res.status(401).json({ msg: "Senha incorreta" });
         }
-        res.status(202).json(usuario);
+        res.status(202).json(suporte);
       } catch (error) {
         next(error);
       }
     } else if (req.params.nivelAcesso === "1") {
       try {
-        const usuario = await prisma.usuario.findUnique({
+        const admin = await prisma.admin.findUnique({
           where: {
-            emailUsuario: req.body.emailUsuario,
+            emailAdmin: req.body.emailAdmin,
           },
         });
-        if (!usuario) {
+        if (!admin) {
           res.status(404).json({ msg: "Usuário não encontrado" });
         }
-        const senha = req.body.senhaUsuario;
-        if (senha !== usuario?.senhaUsuario) {
+        const senha = req.body.senhaAdmin;
+        if (senha !== admin?.senhaAdmin) {
           res.status(401).json({ msg: "Senha incorreta" });
         }
-        res.status(202).json(usuario);
+        res.status(202).json(admin);
       } catch (error) {
         next(error);
       }

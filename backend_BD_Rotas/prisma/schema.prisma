@@ -61,7 +61,7 @@ model Admin {
 model Suporte {
   id           Int       @id @default(autoincrement())
   nomeSuporte  String
-  emailSuporte String
+  emailSuporte String    @unique
   telefoneSuporte String
   senhaSuporte  String @default("")
   nivelAcesso     NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
