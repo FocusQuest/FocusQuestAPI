@@ -53,6 +53,7 @@ model Admin {
   nomeAdmin    String
   emailAdmin   String    @unique
   telefoneAdmin String
+  senhaAdmin   String    @default("")
   nivelAcesso  NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
   idNivelAcesso Int @default(1)
 }
@@ -62,6 +63,7 @@ model Suporte {
   nomeSuporte  String
   emailSuporte String
   telefoneSuporte String
+  senhaSuporte  String @default("")
   nivelAcesso     NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
   idNivelAcesso   Int @default(2)
   chamados     Chamado[]
@@ -72,6 +74,7 @@ model Usuario {
   nomeUsuario     String
   emailUsuario    String    @unique
   telefoneUsuario String
+  senhaUsuario    String    @default("")
   nivelAcesso      NivelAcesso @relation(fields: [idNivelAcesso], references: [id])
   idNivelAcesso   Int @default(3) 
   chamados        Chamado[]

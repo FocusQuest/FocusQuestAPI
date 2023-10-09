@@ -19,7 +19,8 @@ Content-Type: application/json
 
 {
 "nomeUsuario": "Marília Gabriela",
-"emailUsuario": "defrente@ig.com",
+"emailUsuario": "email2@ig.com",
+"senhaUsuario": "123",
 "telefoneUsuario": "11966666666"
 }
 
