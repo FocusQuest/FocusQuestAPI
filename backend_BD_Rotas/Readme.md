@@ -17,3 +17,5 @@ _______________________________________________________________________
 
 Para rodar o banco na GUI do Prisma pelo navegador:
 npx prisma studio
+
+instalar extensão no vs code: rest client (procura na busca do vs code)
