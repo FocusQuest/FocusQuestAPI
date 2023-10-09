@@ -4,6 +4,9 @@ import { config } from 'dotenv'
 
 config();
 
+
+const cors = require('cors');
+
 const express = require('express');
 
 // const morgan = require('morgan');
@@ -12,6 +15,9 @@ const app: Application = express();
 app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
 // app.use(morgan('dev'));
+
+// Enable CORS
+app.use(cors());
 
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
   res.send({ message: 'O app em TS está funcionando! 🐻' });

@@ -5,7 +5,7 @@ Content-Type: application/json
 {
 "nomeChamado": "Computador lento",
 "descChamado": "O computador ficou bem mais lento de 1 mês para cá. Tudo demora muito",
-"idUsuario": 2,
+"idUsuario": 1,
 "idLab": 2,
 "idComputador": 3,
 "idCategoria": 2
@@ -18,9 +18,9 @@ POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 {
-"nomeUsuario": "Marcondes",
-"emailUsuario": "marcondes@ig.com",
-"telefoneUsuario": "11993356666"
+"nomeUsuario": "Marília Gabriela",
+"emailUsuario": "defrente@ig.com",
+"telefoneUsuario": "11966666666"
 }
 
 

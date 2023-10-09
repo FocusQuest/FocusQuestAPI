@@ -1,13 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
-
-// const { PrismaClient } = require('@prisma/client')
-// const prisma = new PrismaClient()
-
 const router = require('express').Router();
-
-
 
 // rota para VER todos os CHAMADOS
 router.get('/chamados', async (req: Request, res: Response, next: NextFunction) => {
@@ -72,7 +66,6 @@ router.delete('/chamados/:id', async (req: Request, res: Response, next: NextFun
   }
 });
 
-
 // rota para ATUALIZAR CHAMADO
 router.patch('/chamados/:id', async (req: Request, res: Response, next: NextFunction) => {
   try {
@@ -96,7 +89,7 @@ router.get('/usuarios', async (req: Request, res: Response, next: NextFunction) 
   try {
     const usuarios = await prisma.usuario.findMany({
     // a linha abaixo inclui a tabela chamado para o usuário
-      include: { chamados: true }
+      // include: { chamados: true }
     })
     res.json({ usuarios })
   } catch (error) {
