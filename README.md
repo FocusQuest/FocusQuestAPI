@@ -27,6 +27,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
@@ -68,3 +69,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+| Links | Período | Status |
+|:-----:|:----------:|:---------:|
+| Sprint 1 | 04/09/2023 - 24/09/2023 |  Finalizada  |
+| Sprint 2 | 25/09/2023 - 15/10/2023 | Em andamento |  
+| Sprint 3 | 16/10/2023 - 05/11/2023 | Não iniciado | 
+| Sprint 4 | 06/11/2023 - 26/11/2023 | Não iniciado |
+
