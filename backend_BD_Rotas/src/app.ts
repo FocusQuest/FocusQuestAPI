@@ -1,45 +1,35 @@
-import { NextFunction, Response, Request, Application, ErrorRequestHandler } from "express";
-import createHttpError = require("http-errors");
-import { config } from 'dotenv'
+import express, { Application, Request, Response, NextFunction } from 'express';
+import * as createHttpError from 'http-errors';
+import { ErrorRequestHandler } from 'express';
+import cors from 'cors';
+import { config } from 'dotenv';
 
 config();
 
-
-const cors = require('cors');
-
-const express = require('express');
-
-// const morgan = require('morgan');
-
 const app: Application = express();
 app.use(express.json());
-// app.use(express.urlencoded({ extended: false }));
-// app.use(morgan('dev'));
-
-// Enable CORS
 app.use(cors());
 
-app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+app.get('/', async (req, res) => {
   res.send({ message: 'O app em TS está funcionando! 🐻' });
 });
 
-
 const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
-    res.status(err.status || 500)
-    res.send({
-        status: err.status || 500,
-        message: err.message
-    });
+  res.status(err.status || 500);
+  res.send({
+    status: err.status || 500,
+    message: err.message,
+  });
 };
 
-app.use('/', require('./routes/api.route'));
+import apiRouter from './routes/api.router';
+app.use('/', apiRouter);
 
-app.use('/', async (req: Request, res: Response, next: NextFunction) => {
-    next(new createHttpError.NotFound())
-  });
+app.use(errorHandler);
 
-app.use(errorHandler)
+app.use(async (req: Request, res: Response, next: NextFunction) => {
+  next(new createHttpError.NotFound());
+});
 
-const PORT: Number = Number(process.env.PORT) || 3000;
+const PORT: number = Number(process.env.PORT) || 3000;
 const server = app.listen(PORT, () => console.log(`🚀 @ http://localhost:${PORT}`));
- 

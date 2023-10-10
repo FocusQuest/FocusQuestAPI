@@ -1,4 +1,16 @@
 
+POST http://localhost:3000/usuarios/login/3
+
+{
+"emailUsuario": "email2@ig.com",
+"senhaUsuario": "123"
+}
+
+## -> rota de login não funciona aqui, só no Insomnia, Posteman, etc
+
+###
+
+
 POST http://localhost:3000/chamados
 Content-Type: application/json
 
@@ -32,7 +44,7 @@ PATCH http://localhost:3000/usuarios/2
 Content-Type: application/json
 
 {
-"nomeUsuario": "Maria de Souza Lima"
+"nomeUsuario": "Maria de Souza Lacerda"
 }
 
 
@@ -63,23 +75,23 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/chamados/4
+DELETE http://localhost:3000/chamados/5
 
 
 ###
 
 
-DELETE http://localhost:3000/usuarios/3
+DELETE http://localhost:3000/usuarios/8
 
 
 ###
 
 
 # inclusão do idSuporte (técnico responsável) ao chamado quando ele assumir a tarefa.
-PATCH http://localhost:3000/chamados/3
+PATCH http://localhost:3000/chamados/6
 Content-Type: application/json
 
-{
+{ 
 "idSuporte": 2
 }
 
