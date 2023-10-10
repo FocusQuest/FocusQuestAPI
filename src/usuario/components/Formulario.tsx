@@ -1,26 +1,28 @@
-import { useForm } from "react-hook-form";
-import { isEmail } from "validator";
-import './styles.css'
+import React from "react";
+import { useForm } from 'react-hook-form';
+import '../styles.css'
 
-
-const Form = () => {
-const {
-  register,
-  handleSubmit,
-  watch,
-  formState: { errors },
-} = useForm();
-
-const watchPassword = watch("password");
-
-const onSubmit = (data) => {
-  alert(JSON.stringify(data));
+type FormData = {
+  problema: string;
+  assunto: string;
+  descricao: string;
+  local: string;
+  identificador: string;
 };
 
-console.log("RENDER");
+const FormTeste: React.FC = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm<FormData>();
 
-return (
-  
+    const onSubmit = (data: FormData) => {
+    alert(JSON.stringify(data));
+  };
+
+  return (
     <div className="Container">
       <div className="Label">
         <label>Busca serviço</label>
@@ -33,88 +35,72 @@ return (
           <option value="developer">Sem internet</option>
           <option value="other">Software</option>
           <option value="other">Outros</option>
-        </select>    
-              
+        </select>
       </div>
 
       <div className="Label">
         <label>Assunto</label>
         <input
           className={errors?.assunto && "input-error"}
-          type="assunto"
+          type="text"
           placeholder="Assunto"
           {...register("assunto", {
             required: true,
-     
           })}
         />
         {errors?.assunto?.type === "required" && (
           <p className="error-message">Campo obrigatório</p>
         )}
-        
       </div>
 
       <div className="Label">
         <label>Descrição</label>
         <input
-          className={errors?.assunto && "input-error"}
-          type="assunto"
-          placeholder="Assunto"
-          {...register("assunto", {
+          className={errors?.descricao && "input-error"}
+          type="text"
+          placeholder="Descrição"
+          {...register("descricao", {
             required: true,
-     
           })}
         />
-        {errors?.assunto?.type === "required" && (
+        {errors?.descricao?.type === "required" && (
           <p className="error-message">Campo obrigatório</p>
         )}
-        
       </div>
-   
 
       <div className="Label">
         <label>Local</label>
         <input
-          type="local"
+          type="text"
           placeholder="Local"
-        
+          {...register("local")}
         />
-        
       </div>
 
       <div className="Label">
         <label>Identificador da máquina</label>
         <input
-          type="identificador"
+          type="text"
           placeholder="IP"
-        
+          {...register("identificador")}
         />
-        
       </div>
-
-      
-     
 
       <div className="Label">
         <div className="anexo">
-        <label>Anexo</label>
+          <label>Anexo</label>
           <input
-            type="anexo"
-            placeholder="Clique aqui para selecionar os arquivos ou
-            arraste-os aqui"
+            type="file"
+            placeholder="Clique aqui para selecionar os arquivos ou arraste-os aqui"
           />
-          
         </div>
-
-       
       </div>
 
       <div className="Label">
-        <button onClick={() => handleSubmit(onSubmit)()}>Enviar</button>
+        <button onClick={handleSubmit(onSubmit)}>Enviar</button>
       </div>
     </div>
-    
   );
 };
 
-export default Form;
+export default FormTeste;
