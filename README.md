@@ -19,7 +19,6 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 |  <img src="/doc/assets/Maria_Gabriela.jpg" width="250px"> | Maria Gabriela | _Product Owner_ | [Github](https://github.com/MariaGabrielaMello) | [Linkedin](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
 | <img src="/doc/assets/gustavo.jpg" width="250px"> | Gustavo Borges | Desenvolvedor | [Github](https://github.com/Miojoguu) | [Linkedin](https://www.linkedin.com/in/gustavo-borges-lima-855440243/)
 | <img src="/doc/assets/sarah.jpg" width="250px"> | Sarah Antunes | Desenvolvedor | [Github](https://github.com/Amentine) | [Linkedin](https://www.linkedin.com/in/sarah-antunes-38a7a1204/)
-| ![Foto Lilian]() | Lilian Ferrão | Desenvolvedor | [Github](https://github.com/lilianferrao) | [Linkedin](https://www.linkedin.com/in/lilian-de-ara%C3%BAjo-ferr%C3%A3o-938492117/)
 | <img src="/doc/assets/katiane.jpg" width="250px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
 | <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
