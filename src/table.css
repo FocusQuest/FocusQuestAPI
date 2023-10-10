@@ -1,0 +1,46 @@
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  thead {
+    background-color: rgb(41, 41, 49);
+    color:aliceblue;
+  }
+  
+  thead th {
+    padding: 10px;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+  }
+  
+  /* Estilo para as linhas de dados */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  
+  /* Estilo para o título da página */
+  h1 {
+    font-size: 3vw;
+    border: 30px solid rgb(41, 41, 49);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(41, 41, 49);
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Estilo para o contêiner da tabela */
+  div {
+    margin: 20px;
+  }
+  
