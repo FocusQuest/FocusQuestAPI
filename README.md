@@ -1,41 +1,79 @@
-## Sumário
+# Getting Started with Create React App
 
-- [Sobre o projeto](#Sobre-o-projeto)
-- [Equipe](#Equipe)
-- [Backlog do produto](#Backlog-do-produto)
-- [Relatório de entregas](#Relatório-de-entregas)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## :bookmark_tabs: Sobre o projeto
+## Available Scripts
 
-Projeto desenvolvido por alunos do 2º semestre do curso de Desenvolvimento de Software Multiplataforma(DSM), da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/)
-o Projeto consiste na criação de uma aplicação de gerenciamento de chamados, o qual foi escolhido para ser direcionado à escolas e instituições de ensino. Deve ser utilizado NodeJS, JavaScript e React para desenvolver essa aplicação, além de banco de dados relacional, a fim de acrescentar ao conhecimento do semestre.
+In the project directory, you can run:
 
-##  :busts_in_silhouette: Equipe
+### `npm start`
 
-|     | Nome           | Função       | GitHub  | Linkedin                              |
-| --- | --------------| ------------| ---------------------------------------------- |---------------|
-| <img src="/doc/assets/silmara.jpeg" width="250px"> | Silmara Bittencourt | _Scrum Master_| [Github](https://github.com/SBittencourt) | [Linkedin](https://br.linkedin.com/in/silmara-in%C3%AAs-bittencourt-da-costa-243478214?trk=people-guest_people_search-card)
-|  <img src="/doc/assets/Maria_Gabriela.jpg" width="250px"> | Maria Gabriela | _Product Owner_ | [Github](https://github.com/MariaGabrielaMello) | [Linkedin](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
-| <img src="/doc/assets/gustavo.jpg" width="250px"> | Gustavo Borges | Desenvolvedor | [Github](https://github.com/Miojoguu) | [Linkedin](https://www.linkedin.com/in/gustavo-borges-lima-855440243/)
-| <img src="/doc/assets/sarah.jpg" width="250px"> | Sarah Antunes | Desenvolvedor | [Github](https://github.com/Amentine) | [Linkedin](https://www.linkedin.com/in/sarah-antunes-38a7a1204/)
-| <img src="/doc/assets/Lilian.jpg" width="250px">  | Lilian Ferrão | Desenvolvedor | [Github](https://github.com/lilianferrao) | [Linkedin](https://www.linkedin.com/in/lilian-de-ara%C3%BAjo-ferr%C3%A3o-938492117/)
-| <img src="/doc/assets/katiane.jpg" width="250px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
-| <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## :dart: Backlog do produto
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 
-<img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## :desktop_computer: MVP
+### `npm run eject`
 
-link: https://youtu.be/UBVSmpkCrV4?si=x-jm1PkkIDxhT3tz 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📌 Relatório de entregas
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
 | Links | Período | Status |
 |:-----:|:----------:|:---------:|
 | Sprint 1 | 04/09/2023 - 24/09/2023 |  Finalizada  |
 | Sprint 2 | 25/09/2023 - 15/10/2023 | Em andamento |  
 | Sprint 3 | 16/10/2023 - 05/11/2023 | Não iniciado | 
 | Sprint 4 | 06/11/2023 - 26/11/2023 | Não iniciado |
+
