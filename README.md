@@ -1,6 +1,7 @@
 ## Sumário
 
 - [Sobre o projeto](#Sobre-o-projeto)
+- [Tecnologias utilizadas](#Tecnologias-utilizadas)
 - [Equipe](#Equipe)
 - [Backlog do produto](#Backlog-do-produto)
 - [Relatório de entregas](#Relatório-de-entregas)
@@ -9,6 +10,25 @@
 
 Projeto desenvolvido por alunos do 2º semestre do curso de Desenvolvimento de Software Multiplataforma(DSM), da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/)
 o Projeto consiste na criação de uma aplicação de gerenciamento de chamados, o qual foi escolhido para ser direcionado à escolas e instituições de ensino. Deve ser utilizado NodeJS, JavaScript e React para desenvolver essa aplicação, além de banco de dados relacional, a fim de acrescentar ao conhecimento do semestre.
+
+
+## Tecnologias utilizadas
+
+Aqui estão as seguintes tecnologias que utilizamos:
+
+<span id="tecnologias">
+<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
+<img src="https://img.shields.io/badge/Node.Js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=3A5F0B" alt="Node.js" /> 
+<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
+<img src="https://img.shields.io/badge/Styled_Components-CED4DA?style=for-the-badge&logo=styled-components&logoColor=ff309f" alt="Styled Components" /> 
+<img src="https://img.shields.io/badge/React_Native-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React Native" /> 
+<img src="https://img.shields.io/badge/Axios-CED4DA?style=for-the-badge&logo=axios&logoColor=0000FF" alt="Axios" /> 
+<img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React" /> 
+<img src="https://img.shields.io/badge/Prisma-CED4DA?style=for-the-badge&logo=prisma&logoColor=303030" alt="Prisma" /> 
+<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" />
+<img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
+<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
+
 
 ## Equipe
 
@@ -46,6 +66,9 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 | **16** | Desenvolver uma função que possibilite gerar automaticamente relatórios com bases nos dados do sistema referente aos chamados |  
 | **17** | Criar um tópico com perguntas frequentes dos usuários do sistema para exibição na página inicial do sistema |  
 | **18** | Fazer a checagem e teste de todo o sistema para verificar o seu funcionamento |  
+
+
+## Relatório de entregas
 
 | Links | Período | Status |
 |:-----:|:----------:|:---------:|
