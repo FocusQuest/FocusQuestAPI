@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './table.css';
 
 interface Usuario {
   id: number;
@@ -8,38 +9,48 @@ interface Usuario {
   telefoneUsuario: string;
 }
 
-
 const UsuariosList: React.FC = () => {
-    const [usuarios, setUsuarios] = useState<Usuario[]>([]);
-  
-    useEffect(() => {
-      axios.get('http://localhost:3000/usuarios')
-        .then(response => setUsuarios(response.data.usuarios))
-        .catch(error => console.error(error));
-    }, []);
-  
-    // Add a conditional rendering check
-    if (usuarios.length === 0) {
-      return <div>Loading...</div>;
-    }
-  
-    return (
-      <div>
-        <h1>Usuários</h1>
-        <ul>
-          {usuarios.map(usuario => (
-            <li key={usuario.id}>
-              <h2>{usuario.nomeUsuario}</h2>
-              <p>{usuario.emailUsuario}</p>
-              <p>{usuario.telefoneUsuario}</p>
-            </li>
+  const [usuarios, setUsuarios] = useState<Usuario[]>([]);
+
+  useEffect(() => {
+    axios
+      .get('http://localhost:3000/usuarios')
+      .then((response) => setUsuarios(response.data.usuarios))
+      .catch((error) => console.error(error));
+  }, []);
+
+  // Add a conditional rendering check
+  if (usuarios.length === 0) {
+    return <div>Loading...</div>;
+  }
+
+  return (
+    <div>
+      <h1>Resumo de Chamados Solicitados</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          {usuarios.map((usuario) => (
+            <tr key={usuario.id}>
+              <td>{usuario.nomeUsuario}</td>
+              <td>{usuario.emailUsuario}</td>
+              <td>{usuario.telefoneUsuario}</td>
+            </tr>
           ))}
-        </ul>
-      </div>
-    );
-  };
-  
-  export default UsuariosList;
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default UsuariosList;
+
 
 //   The initial state of the usuarios array is set to an empty array using the useState hook.
 
