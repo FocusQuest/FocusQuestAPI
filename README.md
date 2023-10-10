@@ -35,7 +35,7 @@ link: https://youtu.be/UBVSmpkCrV4?si=x-jm1PkkIDxhT3tz
 
 | Links | Período | Status |
 |:-----:|:----------:|:---------:|
-| Sprint 1 | 04/09/2023 - 24/09/2023 | Em andamento |
-| Sprint 2 | 25/09/2023 - 15/10/2023 | Não iniciado |  
+| Sprint 1 | 04/09/2023 - 24/09/2023 |  Finalizada  |
+| Sprint 2 | 25/09/2023 - 15/10/2023 | Em andamento |  
 | Sprint 3 | 16/10/2023 - 05/11/2023 | Não iniciado | 
 | Sprint 4 | 06/11/2023 - 26/11/2023 | Não iniciado |
