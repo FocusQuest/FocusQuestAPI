@@ -17,18 +17,19 @@ o Projeto consiste na criação de uma aplicação de gerenciamento de chamados,
 Aqui estão as seguintes tecnologias que utilizamos:
 
 <span id="tecnologias">
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/Node.Js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=3A5F0B" alt="Node.js" />
-<img src="https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=javascript&logoColor=yellow&color=CED4DA" alt="JavaScript" />
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/Styled_Components-CED4DA?style=for-the-badge&logo=styled-components&logoColor=ff309f" alt="Styled Components" /> 
-<img src="https://img.shields.io/badge/React_Native-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React Native" /> 
-<img src="https://img.shields.io/badge/Axios-CED4DA?style=for-the-badge&logo=axios&logoColor=0000FF" alt="Axios" /> 
-<img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=1497ff" alt="React" /> 
-<img src="https://img.shields.io/badge/Prisma-CED4DA?style=for-the-badge&logo=prisma&logoColor=303030" alt="Prisma" /> 
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" />
-<img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
+<img src="https://img.shields.io/badge/Figma-CED4DA?style=opensans&logo=figma&logoColor=white&color=blue" alt="Figma" /> 
+<img src="https://img.shields.io/badge/Node.Js-CED4DA?style=opensans&logo=nodedotjs&logoColor=white&color=blue" alt="Node.js" />
+<img src="https://img.shields.io/badge/JavaScript-black?style=opensans&logo=javascript&logoColor=white&color=blue" alt="JavaScript" />
+<img src="https://img.shields.io/badge/%3C%2F%3E_HTML%20-%20black?style=opensans&logo=html&logoColor=white&color=blue" alt ="HTML" />
+<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=opensans&logo=typescript&logoColor=white&color=blue" alt="Typescript" />
+<img src="https://img.shields.io/badge/Styled_Components-CED4DA?opensans&logo=styled-components&logoColor=white&color=blue" alt="Styled Components" /> 
+<img src="https://img.shields.io/badge/React_Native-CED4DA?opensans&logo=react&logoColor=white&color=blue" alt="React Native" /> 
+<img src="https://img.shields.io/badge/Axios-CED4DA?opensans&logo=axios&logoColor=white&color=blue" alt="Axios" /> 
+<img src="https://img.shields.io/badge/React-CED4DA?opensans&logo=react&logoColor=white&color=blue" alt="React" /> 
+<img src="https://img.shields.io/badge/Prisma-CED4DA?opensans&logo=prisma&logoColor=white&color=blue" alt="Prisma" /> 
+<img src="https://img.shields.io/badge/VS_Code-CED4DA?opensans&logo=visual%20studio%20code&logoColor=white&color=blue" alt="VS Code" />
+<img src="https://img.shields.io/badge/Discord-CED4DA?opensans&logo=discord&logoColor=white&color=blue" alt="Discord" /> 
+<img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" /> 
 
 
 ## Equipe
