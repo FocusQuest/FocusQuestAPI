@@ -1,41 +1,51 @@
+<h1 align="center">Sprint 2: 25/09/2023 - 15/10/2023</h1>
+
 ## Sumário
 
-- [Sobre o projeto](#Sobre-o-projeto)
-- [Equipe](#Equipe)
-- [Backlog do produto](#Backlog-do-produto)
-- [Relatório de entregas](#Relatório-de-entregas)
-
-## :bookmark_tabs: Sobre o projeto
-
-Projeto desenvolvido por alunos do 2º semestre do curso de Desenvolvimento de Software Multiplataforma(DSM), da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/)
-o Projeto consiste na criação de uma aplicação de gerenciamento de chamados, o qual foi escolhido para ser direcionado à escolas e instituições de ensino. Deve ser utilizado NodeJS, JavaScript e React para desenvolver essa aplicação, além de banco de dados relacional, a fim de acrescentar ao conhecimento do semestre.
-
-##  :busts_in_silhouette: Equipe
-
-|     | Nome           | Função       | GitHub  | Linkedin                              |
-| --- | --------------| ------------| ---------------------------------------------- |---------------|
-| <img src="/doc/assets/silmara.jpeg" width="250px"> | Silmara Bittencourt | _Scrum Master_| [Github](https://github.com/SBittencourt) | [Linkedin](https://br.linkedin.com/in/silmara-in%C3%AAs-bittencourt-da-costa-243478214?trk=people-guest_people_search-card)
-|  <img src="/doc/assets/Maria_Gabriela.jpg" width="250px"> | Maria Gabriela | _Product Owner_ | [Github](https://github.com/MariaGabrielaMello) | [Linkedin](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
-| <img src="/doc/assets/gustavo.jpg" width="250px"> | Gustavo Borges | Desenvolvedor | [Github](https://github.com/Miojoguu) | [Linkedin](https://www.linkedin.com/in/gustavo-borges-lima-855440243/)
-| <img src="/doc/assets/sarah.jpg" width="250px"> | Sarah Antunes | Desenvolvedor | [Github](https://github.com/Amentine) | [Linkedin](https://www.linkedin.com/in/sarah-antunes-38a7a1204/)
-| <img src="/doc/assets/Lilian.jpg" width="250px">  | Lilian Ferrão | Desenvolvedor | [Github](https://github.com/lilianferrao) | [Linkedin](https://www.linkedin.com/in/lilian-de-ara%C3%BAjo-ferr%C3%A3o-938492117/)
-| <img src="/doc/assets/katiane.jpg" width="250px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
-| <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
-
-## :dart: Backlog do produto
+- [Sobre a sprint](#Sobre-a-sprint)
+- [Tecnologias utilizadas](#Tecnologias-utilizadas)
+- [Backlog da sprint](#Backlog-da-sprint)
+- [MVP](#MVP)
 
 
-<img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
+## Sobre a sprint
 
-## :desktop_computer: MVP
+Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente. O foco foi o desenvolvimento do sistema de criação de chamados e o funcionamento da página de login, houve também estudo para o uso de novas tecnologias que beneficiam o funcionamento do sistema.
 
-link: https://youtu.be/UBVSmpkCrV4?si=x-jm1PkkIDxhT3tz 
+## Tecnologias utilizadas
 
-## 📌 Relatório de entregas
+<span id="tecnologias">
+<img src="https://img.shields.io/badge/Node.Js-CED4DA?style=opensans&logo=nodedotjs&logoColor=white&color=blue" alt="Node.js" />
+<img src="https://img.shields.io/badge/JavaScript-black?style=opensans&logo=javascript&logoColor=white&color=blue" alt="JavaScript" />
+<img src="https://img.shields.io/badge/%3C%2F%3E_HTML%20-%20black?style=opensans&logo=html&logoColor=white&color=blue" alt ="HTML" />
+<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=opensans&logo=typescript&logoColor=white&color=blue" alt="Typescript" />
+<img src="https://img.shields.io/badge/Styled_Components-CED4DA?opensans&logo=styled-components&logoColor=white&color=blue" alt="Styled Components" /> 
+<img src="https://img.shields.io/badge/React_Native-CED4DA?opensans&logo=react&logoColor=white&color=blue" alt="React Native" /> 
+<img src="https://img.shields.io/badge/Axios-CED4DA?opensans&logo=axios&logoColor=white&color=blue" alt="Axios" /> 
+<img src="https://img.shields.io/badge/React-CED4DA?opensans&logo=react&logoColor=white&color=blue" alt="React" /> 
+<img src="https://img.shields.io/badge/Prisma-CED4DA?opensans&logo=prisma&logoColor=white&color=blue" alt="Prisma" /> 
+<img src="https://img.shields.io/badge/VS_Code-CED4DA?opensans&logo=visual%20studio%20code&logoColor=white&color=blue" alt="VS Code" />
+<img src="https://img.shields.io/badge/Discord-CED4DA?opensans&logo=discord&logoColor=white&color=blue" alt="Discord" /> 
+<img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" /> 
 
-| Links | Período | Status |
-|:-----:|:----------:|:---------:|
-| Sprint 1 | 04/09/2023 - 24/09/2023 | Em andamento |
-| Sprint 2 | 25/09/2023 - 15/10/2023 | Não iniciado |  
-| Sprint 3 | 16/10/2023 - 05/11/2023 | Não iniciado | 
-| Sprint 4 | 06/11/2023 - 26/11/2023 | Não iniciado |
+## Backlog da sprint
+
+ ID | Tarefa |
+|:--------------:  | :----------:|
+| **01** | Estudo sobre ORM Prisma |
+| **02** | Estudo para setar NodeJS express com Typescript |   
+| **03** | Adaptação do banco de dados físico para integração com o back-end |   
+| **05** | Criação das telas do sistema em Typescript |  
+| **06** | Estudo sobre sistemas de login com níveis de acesso | 
+| **07** | Desenvolver a função de login do usuário | 
+| **08** | Desenvolver a função registro de chamados |
+| **09** | Desenvolver a função registro de usuários | 
+| **10** | Estudo sobre React e SPA |
+
+## MVP
+
+(Adicionar aqui o link)
+
+<hr>
+
+[--> Retornar ao inicio](#Sumário)
