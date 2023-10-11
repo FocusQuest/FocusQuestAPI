@@ -37,7 +37,7 @@
 | **12** | Elaborar um modelo de formulário a ser preenchido para abertuda de chamado | 
 
 
-## MPV
+## MVP
 
 Demonstração do wireframe, com as telas de usuário, técnico e administrador:
 
