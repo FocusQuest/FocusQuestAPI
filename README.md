@@ -38,12 +38,12 @@ Aqui estão as seguintes tecnologias que utilizamos:
 
 |     | Nome           | Função       | GitHub  | Linkedin                              |
 | --- | --------------| ------------| ---------------------------------------------- |---------------|
-| <img src="/doc/assets/silmara.jpeg" width="250px"> | Silmara Bittencourt | _Scrum Master_| [Github](https://github.com/SBittencourt) | [Linkedin](https://br.linkedin.com/in/silmara-in%C3%AAs-bittencourt-da-costa-243478214?trk=people-guest_people_search-card)
-|  <img src="/doc/assets/Maria_Gabriela.jpg" width="250px"> | Maria Gabriela | _Product Owner_ | [Github](https://github.com/MariaGabrielaMello) | [Linkedin](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
-| <img src="/doc/assets/gustavo.jpg" width="250px"> | Gustavo Borges | Desenvolvedor | [Github](https://github.com/Miojoguu) | [Linkedin](https://www.linkedin.com/in/gustavo-borges-lima-855440243/)
-| <img src="/doc/assets/sarah.jpg" width="250px"> | Sarah Antunes | Desenvolvedor | [Github](https://github.com/Amentine) | [Linkedin](https://www.linkedin.com/in/sarah-antunes-38a7a1204/)
-| <img src="/doc/assets/katiane.jpg" width="250px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
-| <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
+| <img src="/doc/assets/silmara.jpeg" width="100px"> | Silmara Bittencourt | _Scrum Master_| [Github](https://github.com/SBittencourt) | [Linkedin](https://br.linkedin.com/in/silmara-in%C3%AAs-bittencourt-da-costa-243478214?trk=people-guest_people_search-card)
+|  <img src="/doc/assets/Maria_Gabriela.jpg" width="100px"> | Maria Gabriela | _Product Owner_ | [Github](https://github.com/MariaGabrielaMello) | [Linkedin](https://www.linkedin.com/in/gabrieia-mello-3819a9270/)
+| <img src="/doc/assets/gustavo.jpg" width="100px"> | Gustavo Borges | Desenvolvedor | [Github](https://github.com/Miojoguu) | [Linkedin](https://www.linkedin.com/in/gustavo-borges-lima-855440243/)
+| <img src="/doc/assets/sarah.jpg" width="100px"> | Sarah Antunes | Desenvolvedor | [Github](https://github.com/Amentine) | [Linkedin](https://www.linkedin.com/in/sarah-antunes-38a7a1204/)
+| <img src="/doc/assets/katiane.jpg" width="100px"> | Katiane Soares | Desenvolvedor | [Github](https://github.com/Katianefatec) | [Linkedin](https://www.linkedin.com/in/katiane-soares-4b8193245/)
+| <img src="/doc/assets/marcus.jpg" width="100px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
 
 ## Backlog do produto
