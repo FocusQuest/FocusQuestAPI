@@ -46,30 +46,10 @@ Aqui estão as seguintes tecnologias que utilizamos:
 | <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
 
+## :dart: Backlog do produto
 
-## Backlog do produto
 
- ID | Tarefa |
-|:--------------:  | :----------:|
-| **01** | Desenvolver um protótipo do projeto utilizando o Figma contendo a estrutura do projeto  |
-| **02** | Criar o modelo conceitual e posteriormente o modelo lógico utilizando o vertabelo contendo os elementos do projeto e o relacionamento entre eles |   
-| **03** | Buscar fontes confiáveis com exemplos de sistemas de gerenciamentos de chamados e seu funcionamento |   
-| **04** | Buscar livros e sites fidedignos sobre o assunto, contendo informações sobre o assunto bem como sua aplicação |   
-| **05** | Elaborar um modelo de formulário com as informações que serão preenchidas pelo usuário como nome, título do problema, descrição, categoria e prioridade |   
-| **06** | Buscar livros e sites fidedignos sobre o assunto, contendo informações sobre o assunto bem como sua aplicação |   
-| **07** | Desenvolver um formulário em código com opções de inserção de informações por categoria e descritivas por parte do usuário |   
-| **08** | Desenvolver uma página com a opção de login para os três tipos de usuários separadamente |   
-| **09** | Criar uma página de registros onde será possível cadastrar cada usuário de acordo com sua função no sistema contendo as informações para identificação de cada um |
-| **10** | Desenvolver dropdowns para selecionar a prioridade e a categoria dos tickets abertos pelo usuário |  
-| **11** | Com base no modelo conceitual e lógico de dados, criar o modelo físico do banco de dados |   
-| **12** | Realizar a integração do banco de dados ao projeto conectando o back-end ao front-end | 
-| **13** | Desenvolver a opção de visualizar os chamados abertos, seu andamento, por quem foi aberto, quem é o responsável pela sua solução, data de abertura e data de fechamento |
-| **14** | Mostrar uma opção onde é possível adicionar comentários para o cliente  |
-| **15** | Desenvolver uma função de filtro onde seja possível buscar chamados de acordo com o seu status de andamento |  
-| **16** | Desenvolver uma função que possibilite gerar automaticamente relatórios com bases nos dados do sistema referente aos chamados |  
-| **17** | Criar um tópico com perguntas frequentes dos usuários do sistema para exibição na página inicial do sistema |  
-| **18** | Fazer a checagem e teste de todo o sistema para verificar o seu funcionamento |  
-
+<img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
 
 ## Relatório de entregas
 
