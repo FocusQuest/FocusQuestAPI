@@ -2,19 +2,19 @@
 
 ## Sumário
 
-- [Sobre o projeto](#:bookmark_tabs:-Sobre-o-projeto)
-- [Tecnologias utilizadas](#💻-Tecnologias-utilizadas)
-- [Equipe](#:busts_in_silhouette:-Equipe)
-- [Backlog do produto](#:dart:-Backlog-do-produto)
-- [Relatório de entregas](#📌-Relatório-de-entregas)
+- [Sobre o projeto](#Sobre-o-projeto)
+- [Tecnologias utilizadas](#Tecnologias-utilizadas)
+- [Equipe](#Equipe)
+- [Backlog do produto](#Backlog-do-produto)
+- [Relatório de entregas](#Relatório-de-entregas)
 
-## :bookmark_tabs: Sobre o projeto
+## Sobre o projeto
 
 Projeto desenvolvido por alunos do 2º semestre do curso de Desenvolvimento de Software Multiplataforma(DSM), da [Fatec São José dos Campos - Prof. Jessen Vidal.](https://fatecsjc-prd.azurewebsites.net/)
 o Projeto consiste na criação de uma aplicação de gerenciamento de chamados, o qual foi escolhido para ser direcionado à escolas e instituições de ensino. Deve ser utilizado NodeJS, JavaScript e React para desenvolver essa aplicação, além de banco de dados relacional, a fim de acrescentar ao conhecimento do semestre.
 
 
-## 💻 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 Aqui estão as seguintes tecnologias que utilizamos:
 
@@ -35,7 +35,7 @@ Aqui estão as seguintes tecnologias que utilizamos:
 <img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" /> 
 
 
-##  :busts_in_silhouette: Equipe
+##  Equipe
 
 
 |     | Nome           | Função       | GitHub  | Linkedin                              |
@@ -48,12 +48,12 @@ Aqui estão as seguintes tecnologias que utilizamos:
 | <img src="/doc/assets/marcus.jpg" width="100px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
 
-## :dart: Backlog do produto
+## Backlog do produto
 
 
 <img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
 
-## 📌 Relatório de entregas
+## Relatório de entregas
 
 | Sprint | Período | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
