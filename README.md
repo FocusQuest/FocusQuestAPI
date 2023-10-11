@@ -2,11 +2,11 @@
 
 ## Sumário
 
-- [Sobre o projeto](#Sobre-o-projeto)
-- [Tecnologias utilizadas](#Tecnologias-utilizadas)
-- [Equipe](#Equipe)
-- [Backlog do produto](#Backlog-do-produto)
-- [Relatório de entregas](#Relatório-de-entregas)
+- [Sobre o projeto](#:bookmark_tabs:-Sobre-o-projeto)
+- [Tecnologias utilizadas](#💻-Tecnologias-utilizadas)
+- [Equipe](#:busts_in_silhouette:-Equipe)
+- [Backlog do produto](#:dart:-Backlog-do-produto)
+- [Relatório de entregas](#📌-Relatório-de-entregas)
 
 ## :bookmark_tabs: Sobre o projeto
 
