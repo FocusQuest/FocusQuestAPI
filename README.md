@@ -21,6 +21,7 @@ Aqui estão as seguintes tecnologias que utilizamos:
 <img src="https://img.shields.io/badge/Node.Js-CED4DA?style=opensans&logo=nodedotjs&logoColor=white&color=blue" alt="Node.js" />
 <img src="https://img.shields.io/badge/JavaScript-black?style=opensans&logo=javascript&logoColor=white&color=blue" alt="JavaScript" />
 <img src="https://img.shields.io/badge/%3C%2F%3E_HTML%20-%20black?style=opensans&logo=html&logoColor=white&color=blue" alt ="HTML" />
+ <img src="https://img.shields.io/badge/MySql%20-%20black?style=opensans&logo=mysql&logoColor=white&color=blue" alt ="MySql" />
 <img src="https://img.shields.io/badge/TypeScript-CED4DA?style=opensans&logo=typescript&logoColor=white&color=blue" alt="Typescript" />
 <img src="https://img.shields.io/badge/Styled_Components-CED4DA?opensans&logo=styled-components&logoColor=white&color=blue" alt="Styled Components" /> 
 <img src="https://img.shields.io/badge/React_Native-CED4DA?opensans&logo=react&logoColor=white&color=blue" alt="React Native" /> 
