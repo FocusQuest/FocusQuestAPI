@@ -38,7 +38,7 @@ const App = () => (
         <Route path="Meus_chamados" element={<Chamados />} />
         <Route path="Formulario" element={<FormTeste />} />
         <Route path="Chamados" element={<ChamadosList />} />
-        <Route path="/usuarios" element={<UsuariosList />} />
+        <Route path="usuarios" element={<UsuariosList />} />
         <Route path="*" element={<Signin />} />
       </Route>
     </Routes>
