@@ -46,7 +46,7 @@ Aqui estão as seguintes tecnologias que utilizamos:
 | <img src="/doc/assets/marcus.jpg" width="250px"> | Marcus Betti | Desenvolvedor | [Github](https://github.com/marcusvbe) | [Linkedin](https://www.linkedin.com/in/marcus-betti-715b6614a/)
 
 
-## :dart: Backlog do produto
+## Backlog do produto
 
 
 <img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
