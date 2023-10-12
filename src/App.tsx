@@ -13,6 +13,8 @@ import FormTeste from './usuario/components/Formulario';
 import Painel from './usuario/components/Meu_painel';
 // import Chamados from './usuario/components/Meus_chamados';
 import ChamadosList from './usuario/components/chamadosList';
+import Meus_chamados from './usuario/components/Meus_chamados';
+
 
 /**
  * Renders the `Item` component if the user is signed in, otherwise renders the `Signin` component.
@@ -28,6 +30,8 @@ import ChamadosList from './usuario/components/chamadosList';
 const App = () => (
   <Router>
     <Routes>
+    <Route path="Todos_chamados" element={<ChamadosList />} />
+    {/* para usar como base para Chamados por técnico e Chamados para relatórios */}
       <Route path="/" element={<Signin />} />
       {/* <Route path="/home" element={<Private Item={Home} />} /> */}
       <Route path="/signup" element={<Signup />} />
@@ -35,7 +39,7 @@ const App = () => (
         <Route path="Meu_painel" element={<Painel />} />
         <Route path="Duvidas" element={<Duvidas />} />
         <Route path="Abrir_chamado" element={<FormTeste/>} />
-        <Route path="Meus_chamados" element={<ChamadosList />} />
+        <Route path="Meus_chamados" element={<Meus_chamados />} />
         {/* <Route path="Formulario" element={<FormTeste />} /> */}
         {/* <Route path="Chamados" element={<ChamadosList />} /> */}
         <Route path="usuarios" element={<UsuariosList />} />

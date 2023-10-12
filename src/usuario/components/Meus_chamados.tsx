@@ -28,7 +28,7 @@ function Chamados() {
 
   return (
     <div>
-      <h4>Esta é a página Meus chamados</h4>
+      <h4>Meus chamados</h4>
       <ul>
         {chamados.map(chamado => (
           <li key={chamado.id}>
