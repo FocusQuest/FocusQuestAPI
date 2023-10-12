@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Base from "./BaseUsuario";
 import useAuth from "./login/hooks/useAuth";
 import Home from "./login/pages/Home";
 import Signin from "./login/pages/Signin";
 import Signup from "./login/pages/Signup";
 import Abrir from "./usuario/components/Abrir_chamado";
+import Base from "./usuario/components/BaseUsuario";
 import Duvidas from "./usuario/components/Duvidas_frequentes";
 import FormTeste from "./usuario/components/Formulario";
 import Painel from "./usuario/components/Meu_painel";
