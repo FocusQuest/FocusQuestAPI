@@ -23,22 +23,19 @@ const FormTeste: React.FC = () => {
   };
 
   return (
-    <div className="Container">
-      <div className="Label">
-        <label>Busca serviço</label>
-        <select
-          className={errors?.problema && "input-error"}
-          defaultValue="0"
-          {...register("problema", { validate: (value) => value !== "0" })}
-        >
-          <option value="0">Selecione...</option>
-          <option value="developer">Sem internet</option>
-          <option value="other">Software</option>
-          <option value="other">Outros</option>
-        </select>
-      </div>
-
-      <div className="Label">
+      <><div className="Label">
+      <label>Busca serviço</label>
+      <select
+        className={errors?.problema && "input-error"}
+        defaultValue="0"
+        {...register("problema", { validate: (value) => value !== "0" })}
+      >
+        <option value="0">Selecione...</option>
+        <option value="developer">Sem internet</option>
+        <option value="other">Software</option>
+        <option value="other">Outros</option>
+      </select>
+    </div><div className="Label">
         <label>Assunto</label>
         <input
           className={errors?.assunto && "input-error"}
@@ -46,14 +43,11 @@ const FormTeste: React.FC = () => {
           placeholder="Assunto"
           {...register("assunto", {
             required: true,
-          })}
-        />
+          })} />
         {errors?.assunto?.type === "required" && (
           <p className="error-message">Campo obrigatório</p>
         )}
-      </div>
-
-      <div className="Label">
+      </div><div className="Label">
         <label>Descrição</label>
         <input
           className={errors?.descricao && "input-error"}
@@ -61,45 +55,33 @@ const FormTeste: React.FC = () => {
           placeholder="Descrição"
           {...register("descricao", {
             required: true,
-          })}
-        />
+          })} />
         {errors?.descricao?.type === "required" && (
           <p className="error-message">Campo obrigatório</p>
         )}
-      </div>
-
-      <div className="Label">
+      </div><div className="Label">
         <label>Local</label>
         <input
           type="text"
           placeholder="Local"
-          {...register("local")}
-        />
-      </div>
-
-      <div className="Label">
+          {...register("local")} />
+      </div><div className="Label">
         <label>Identificador da máquina</label>
         <input
           type="text"
           placeholder="IP"
-          {...register("identificador")}
-        />
-      </div>
-
-      <div className="Label">
+          {...register("identificador")} />
+      </div><div className="Label">
         <div className="anexo">
           <label>Anexo</label>
           <input
             type="file"
-            placeholder="Clique aqui para selecionar os arquivos ou arraste-os aqui"
-          />
+            placeholder="Clique aqui para selecionar os arquivos ou arraste-os aqui" />
         </div>
-      </div>
-
-      <div className="Label">
+      </div><div className="Label">
         <button onClick={handleSubmit(onSubmit)}>Enviar</button>
-      </div>
-    </div>
+      </div></>
+    
   );
 };
 

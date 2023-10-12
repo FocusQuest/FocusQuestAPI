@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../table.css';
+import './css/table.css';
 
 interface Usuario {
   id: number;
@@ -25,26 +25,28 @@ const UsuariosList: React.FC = () => {
   }
 
   return (
-    <div>
-      <h1>Usuários registrados</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Telefone</th>
-          </tr>
-        </thead>
-        <tbody>
-          {usuarios.map((usuario) => (
-            <tr key={usuario.id}>
-              <td>{usuario.nomeUsuario}</td>
-              <td>{usuario.emailUsuario}</td>
-              <td>{usuario.telefoneUsuario}</td>
+    <div className='Container'>
+      <div>
+        <h1>Usuários registrados</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Telefone</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {usuarios.map((usuario) => (
+              <tr key={usuario.id}>
+                <td>{usuario.nomeUsuario}</td>
+                <td>{usuario.emailUsuario}</td>
+                <td>{usuario.telefoneUsuario}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

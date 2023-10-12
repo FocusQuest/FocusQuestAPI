@@ -12,7 +12,7 @@ import Duvidas from './usuario/components/Duvidas_frequentes';
 import FormTeste from './usuario/components/Formulario';
 import Painel from './usuario/components/Meu_painel';
 // import Chamados from './usuario/components/Meus_chamados';
-import ChamadosList from './usuario/components/chamadosList';
+import ChamadosList from './técnico/chamadosList';
 import Meus_chamados from './usuario/components/Meus_chamados';
 
 

@@ -19,7 +19,9 @@ function Base() {
             <Nav.Link as={Link} to="Meus_chamados"> Meus chamados </Nav.Link>
           </Nav>
         </div>
+        <div className='Container'>
         <Outlet />
+        </div>
       </div>
     </>
 

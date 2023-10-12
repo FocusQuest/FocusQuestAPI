@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import '../styles.css'
 
 interface Chamado {
   id: number;
@@ -37,9 +38,11 @@ function Chamados() {
             <p>{chamado.dataAberturaChamado}</p>
             {/* Render other properties here */}
           </li>
-        ))}
-      </ul>
-    </div>
+          ))}
+        </ul>
+      </div>
+    
+
   );
 }
 
