@@ -31,6 +31,30 @@ export const getChamadoById = async (req: Request, res: Response, next: NextFunc
   }
 };
 
+export const getChamadosByUser = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const { id } = req.params;
+    const usuario = await prisma.usuario.findUnique({
+      where: {
+        id: Number(id),
+      },
+    })
+    const chamados = await prisma.chamado.findMany({
+      where: {
+        idUsuario: Number(id),
+      },
+    });
+    if (!usuario) {
+      return res.status(404).json({ message: 'Usuário não encontrado!' });
+    }
+    res.json(chamados);
+  } catch (error) {
+    next(error);
+  }
+};
+ 
+
+
 export const createChamado = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const createdChamado = await prisma.chamado.create({

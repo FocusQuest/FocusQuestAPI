@@ -1,3 +1,9 @@
+GET http://localhost:3000/chamados/usuario/6
+
+# {
+# "idUsuario": 2    
+# }
+
 
 POST http://localhost:3000/usuarios/login/3
 

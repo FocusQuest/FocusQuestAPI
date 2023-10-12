@@ -6,6 +6,7 @@ const prisma = new PrismaClient();
 import {
   getChamados,
   getChamadoById,
+  getChamadosByUser,
   createChamado,
   deleteChamado,
   updateChamado,
@@ -24,6 +25,7 @@ const router = express.Router();
 // Chamados routes
 router.get("/chamados", getChamados);
 router.get("/chamados/:id", getChamadoById);
+router.get("/chamados/usuario/:id", getChamadosByUser);
 router.post("/chamados", createChamado);
 router.delete("/chamados/:id", deleteChamado);
 router.patch("/chamados/:id", updateChamado);
