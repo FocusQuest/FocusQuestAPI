@@ -10,6 +10,7 @@ import FormTeste from "./usuario/components/Formulario";
 import Painel from "./usuario/components/Meu_painel";
 import Chamados from "./usuario/components/Meus_chamados";
 import ChamadosList from "./usuario/components/chamadosList";
+import UsuariosList from "./usuario/components/usuariosList";
 
 const Private = ({ Item }) => {
   const { signed } = useAuth();
