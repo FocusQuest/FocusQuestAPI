@@ -56,23 +56,24 @@ const FormTeste: React.FC = () => {
           <option value="outros">Outros</option>
         </select>
       </div>
-
-{/* idUsuario deve ser puxado dos dados de login */}
-      <div className="Label">
-  <label>Identificador do Usuário</label>
-  <input
-    type="hidden"
-    value="2"
-    {...register("idUsuario")}
-  />
-</div>
+      
+      {/* idUsuario deve ser puxado dos dados de login */}
+      {/* <div className="Label">
+        <label>Identificador do Usuário</label>
+        <input
+          type="hidden"
+          value="2"
+          placeholder="idUsuario"
+          {...register("idUsuario")}
+        />
+      </div> */}
 
       <div className="Label">
         <label>Assunto</label>
         <input
           className={errors?.nomeChamado && "input-error"}
           type="text"
-          placeholder="nomeChamado"
+          placeholder="Assunto"
           {...register("nomeChamado", {
             required: true,
           })}
@@ -84,12 +85,13 @@ const FormTeste: React.FC = () => {
 
       <div className="Label">
         <label>Descrição</label>
-        <input
+        <textarea
           className={errors?.descChamado && "input-error"}
-          type="text"
-          placeholder="descChamado"
+          placeholder="Descrição do problema"
           {...register("descChamado", {
             required: true,
+            maxLength: 1400,
+            minLength: 10,
           })}
         />
         {errors?.descChamado?.type === "required" && (
@@ -101,7 +103,7 @@ const FormTeste: React.FC = () => {
         <label>Local</label>
         <input
           type="text"
-          placeholder="idLab"
+          placeholder="Local"
           {...register("idLab")}
         />
       </div>

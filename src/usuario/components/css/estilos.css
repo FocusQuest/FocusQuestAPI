@@ -1,7 +1,6 @@
 .Container {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 10px;
   height: 100vh;
@@ -102,4 +101,26 @@ p {
 
 .list-unstyled a:hover {
   background-color: #495057;
+}
+
+.MenuSup{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  height: 80px;  
+  margin-top: -20px; 
+}
+
+.MenuSupItem {
+  margin-right: 10px; 
+  line-height: normal; 
+}
+
+.InputDescricao {
+  
+
 }
