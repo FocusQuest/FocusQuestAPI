@@ -98,22 +98,37 @@ const FormTeste: React.FC = () => {
         )}
       </div>
 
+      <div className="Container">
       <div className="Label">
         <label>Local</label>
-        <input
-          type="text"
-          placeholder="Local"
-          {...register("idLab")}
-        />
+        <select
+          className={errors?.idLab && "input-error"}
+          defaultValue="0"
+          {...register("idLab", { validate: (value) => value !== 0 })}
+        >
+          <option value="0">Selecione...</option>
+          <option value="1">Lab 1</option>
+          <option value="2">Lab 2</option>
+          <option value="3">Lab 3</option>
+          <option value="4">Lab 4</option>
+          <option value="5">Sala dos professores</option>
+        </select>
       </div>
 
       <div className="Label">
-        <label>Identificador do computador</label>
-        <input
-          type="text"
-          placeholder="ID do computador"
-          {...register("idComputador")}
-        />
+        <label>Identificação do computador</label>
+        <select
+          className={errors?.idComputador && "input-error"}
+          defaultValue="0"
+          {...register("idComputador", { validate: (value) => value !== 0 })}
+        >
+          <option value="0">Selecione...</option>
+          <option value="7">10</option>
+          <option value="8">20</option>
+          <option value="9">30</option>
+          <option value="10">40</option>
+          <option value="11">Profs-1</option>
+        </select>
       </div>
 
       <div className="Label">
@@ -129,6 +144,7 @@ const FormTeste: React.FC = () => {
       <div className="Label">
         <button onClick={handleSubmit(onSubmit)}>Enviar</button>
       </div>
+    </div>
     </div>
   );
 };
