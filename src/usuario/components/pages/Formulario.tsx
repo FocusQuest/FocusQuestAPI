@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from 'react-hook-form';
-import '../styles.css'
-import { createChamado } from "../../../../../Backend_atual/FocusQuestAPI/backend_BD_Rotas/src/controllers/chamados.controller"
+import '../css/estilos.css';
+// import { createChamado } from "../../../../../Backend_atual/FocusQuestAPI/backend_BD_Rotas/src/controllers/chamados.controller"
 import axios from 'axios';
 
 type FormData = {
