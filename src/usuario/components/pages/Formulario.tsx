@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from 'react-hook-form';
-import '../estilos.css'
+import '../css/estilos.css';
 
 type FormData = {
   problema: string;

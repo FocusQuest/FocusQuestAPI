@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../estilos.css'
+import '../css/estilos.css';
 
 interface Chamado {
   id: number;

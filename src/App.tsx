@@ -8,12 +8,12 @@ import Base from './usuario/components/BaseUsuario';
 import Signin from './login/pages/Signin';
 import Signup from './login/pages/Signup';
 // import Abrir from './usuario/components/Abrir_chamado';
-import Duvidas from './usuario/components/Duvidas_frequentes';
-import FormTeste from './usuario/components/Formulario';
-import Painel from './usuario/components/Meu_painel';
+import Duvidas from './usuario/components/pages/Duvidas_frequentes';
+import FormTeste from './usuario/components/pages/Formulario';
+import Painel from './usuario/components/pages/Meu_painel';
 // import Chamados from './usuario/components/Meus_chamados';
 import ChamadosList from './técnico/chamadosList';
-import Meus_chamados from './usuario/components/Meus_chamados';
+import Meus_chamados from './usuario/components/pages/Meus_chamados';
 
 
 /**
