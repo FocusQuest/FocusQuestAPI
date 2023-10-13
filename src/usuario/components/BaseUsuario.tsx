@@ -2,7 +2,6 @@ import React from 'react';
 import './css/index.css';
 import { Link, Outlet } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import './css/menu.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/estilos.css';
 

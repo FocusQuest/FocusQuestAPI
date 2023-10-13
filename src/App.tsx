@@ -5,8 +5,8 @@ import UsuariosList from './adm/usuariosList';
 import Base from './usuario/components/BaseUsuario';
 // import useAuth from './login/hooks/useAuth';
 // import Home from './login/pages/Home';
-import Signin from './login/pages/Signin';
-import Signup from './login/pages/Signup';
+import Signin from './login/pages/login';
+import Signup from './login/pages/signup';
 // import Abrir from './usuario/components/Abrir_chamado';
 import Duvidas from './usuario/components/pages/Duvidas_frequentes';
 import FormTeste from './usuario/components/pages/Formulario';
@@ -14,6 +14,7 @@ import Painel from './usuario/components/pages/Meu_painel';
 // import Chamados from './usuario/components/Meus_chamados';
 import ChamadosList from './técnico/chamadosList';
 import Meus_chamados from './usuario/components/pages/Meus_chamados';
+import useAuth from './useAuth';
 
 
 /**
