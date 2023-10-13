@@ -21,12 +21,12 @@ POST http://localhost:3000/chamados
 Content-Type: application/json
 
 {
-"nomeChamado": "Computador lento",
-"descChamado": "O computador ficou bem mais lento de 1 mês para cá. Tudo demora muito",
-"idUsuario": 1,
+"nomeChamado": "Internet carrega e para",
+"descChamado": "Estava bom, depois ficou ruim depois ficou bom",
+"idUsuario": 2,
 "idLab": 2,
 "idComputador": 3,
-"idCategoria": 2
+"idCategoria": 1
 }
 
 ###

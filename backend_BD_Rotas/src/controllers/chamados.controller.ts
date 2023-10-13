@@ -61,10 +61,10 @@ export const createChamado = async (req: Request, res: Response, next: NextFunct
       data: {
         nomeChamado: req.body.nomeChamado,
         descChamado: req.body.descChamado,
-        idUsuario: req.body.idUsuario,
-        idLab: req.body.idLab,
-        idComputador: req.body.idComputador,
-        idCategoria: req.body.idCategoria,
+        idUsuario: parseInt(req.body.idUsuario),
+        idLab: parseInt(req.body.idLab),
+        idComputador: parseInt(req.body.idComputador),
+        idCategoria: parseInt(req.body.idCategoria),
       },
     });
     res.status(201).json(createdChamado);
