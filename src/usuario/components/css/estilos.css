@@ -1,3 +1,9 @@
+body {
+  overflow-x: hidden; /* Isso remove a barra de rolagem horizontal */
+  margin: 0;
+  padding: 0;
+}
+
 .Container {
   align-items: flex-start;
   width: 65%;
@@ -21,15 +27,6 @@
   border-radius: 5px;
 }
 
-/* .containerForm {
-  align-items: flex-start;
-  width: 65%;
-  margin: auto;
-  overflow:auto;
-  min-height: 300px;
-  padding: 10px;
-  
-} */
 
 .Label {
   font-size: 18px;
@@ -57,6 +54,7 @@
   flex-direction: column;
   flex: 1;
 }
+
 .LabelContainer{
   display: flex;
   margin-bottom: 10px;
@@ -173,4 +171,104 @@ textarea {
   width: 100%;
   height: 150px;
   resize: vertical; /* ou "both" se quiser permitir redimensionamento horizontal também */
+}
+
+
+/* Estilo para o botão "Enviar" */
+button {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Texto branco */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right; /* Alinha à direita */
+}
+
+button:hover {
+  background-color: #555; /* Cor de fundo mais escura quando o cursor estiver sobre o botão */
+}
+
+/* Estilos para as caixas de texto (inputs) */
+.Label input {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda com cor de cinza */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: #f5f5f5; /* Cor de fundo mais clara */
+  color: #333; /* Cor do texto */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+.Label input:focus {
+  border-color: #555; /* Borda mais escura quando a caixa de texto está em foco */
+}
+
+
+/* Estilos para o textarea de descrição */
+.descricao-input {
+  width: 100%; /* Ocupa toda a largura disponível */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda com cor de cinza */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: #f5f5f5; /* Cor de fundo mais clara */
+  color: #333; /* Cor do texto */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+.descricao-input:focus {
+  border-color: #555; /* Borda mais escura quando o textarea está em foco */
+}
+
+/* Estilos para a caixa de seleção personalizada */
+.select-personalizado {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+}
+
+.select-personalizado:focus {
+  border-color: #555;
+}
+
+/* Estilos para o campo "Tipo de serviço" (caixa de seleção) */
+.Label select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+}
+
+.Label select:focus {
+  border-color: #555;
+}
+
+/* Estilo para o input de arquivo (caixa de anexos) */
+.anexo-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 14px;
+}
+
+.anexo-input:focus {
+  border-color: #555;
+}
+
+/* Estilo para o texto "Campo obrigatório" (mensagem de erro) */
+.error-message {
+  color: red; /* Cor vermelha */
+  font-size: 16px; /* Tamanho da fonte maior */
+  font-weight: bold; /* Negrito para destaque */
+  margin-top: 5px; /* Margem superior para espaçamento */
 }

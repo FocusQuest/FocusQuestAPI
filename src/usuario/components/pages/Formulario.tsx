@@ -49,6 +49,11 @@ const Formulario: React.FC = () => {
 
 
   return (
+
+    <><div><h2> Abrir chamado</h2></div>
+
+    <hr></hr>
+
     <div className="containerForm">
       <div className="Label">
         <span className="description">Tipo de serviço</span>
@@ -63,50 +68,49 @@ const Formulario: React.FC = () => {
           <option value="3">Outros</option>
         </select>
       </div>
-      
+
       {/* idUsuario deve ser puxado dos dados de login */}
 
       <div className="Label">
-      <span className="description">Assunto</span>    
+        <span className="description">Assunto</span>
         <input
           className={errors?.nomeChamado && "input-error"}
           type="text"
-          placeholder="Assunto"
+          placeholder="Insira o assunto"
           {...register("nomeChamado", {
             required: true,
-          })}
-        />
+          })} />
         {errors?.nomeChamado?.type === "required" && (
           <p className="error-message">Campo obrigatório</p>
         )}
       </div>
 
       <div className="Label">
-      <label>Descrição</label>
-      <br></br>
-      <br></br>
+        <label>Descrição</label>
         <textarea
-          className={errors?.descChamado && "input-error"}
-          placeholder="Descrição do problema"
-          {...register("descChamado", {
-            required: true,
-            maxLength: 400,
-            minLength: 10,
-          })}
+        className={`${
+          errors?.descChamado && "input-error"
+        } descricao-input`} 
+        placeholder="Insira a descrição do problema"
+        {...register("descChamado", {
+          required: true,
+          maxLength: 400,
+          minLength: 10,
+        })}
         />
         {errors?.descChamado?.type === "required" && (
-          <p className="error-message">Campo obrigatório</p>
+        <p className="error-message">Campo obrigatório</p>
         )}
-      </div>
-      
-      <div className="LabelContainer">
+        </div>
+
+        <div className="LabelContainer">
         <div className="Column">
           <div className="Label">
             <label>Local</label>
-            <br></br>
-            <br></br>
             <select
-              className={errors?.idLab && "input-error"}
+              className={`${
+                errors?.idLab && "input-error"
+              } select-personalizado`} 
               defaultValue="0"
               {...register("idLab", { validate: (value) => value !== 0 })}
             >
@@ -121,10 +125,10 @@ const Formulario: React.FC = () => {
 
           <div className="Label">
             <label>Identificador da máquina</label>
-            <br></br>
-            <br></br>
             <select
-              className={errors?.idComputador && "input-error"}
+              className={`${
+                errors?.idComputador && "input-error"
+              } select-personalizado`} 
               defaultValue="0"
               {...register("idComputador", { validate: (value) => value !== 0 })}
             >
@@ -138,26 +142,27 @@ const Formulario: React.FC = () => {
           </div>
         </div>
 
-          <div className="LabelAnexo">
-            <label>Anexos</label>
-              <br></br>
-              <div className="Anexo">
-              <input
-                  type="file"
-                  
-              />              
-              </div>
-            
-          </div>
-        </div>
 
-          <div className="Label">
-            <div id="enviar">
-              <button onClick={handleSubmit(onSubmit)}>Enviar</button>
+        <div className="LabelAnexo">
+          <label>Anexos</label>
+          <br></br>
+          <div className="Anexo">
+            <div  className="anexo-input">
+              <input
+              type="file" />
             </div>
           </div>
-        
-    </div>
+
+        </div>
+      </div>
+
+      <div className="Label">
+        <div id="enviar">
+          <button onClick={handleSubmit(onSubmit)}>Enviar</button>
+        </div>
+      </div>
+
+    </div></>
     
     
   );

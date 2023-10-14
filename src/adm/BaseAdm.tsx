@@ -16,7 +16,7 @@ function BaseAdm() {
           </div> */}
           <div id='MenuSupItem'>
             <img src="./img/sino.png" alt="sino" />          
-          d</div>
+          </div>
           <div>
           <h5> Nome do usuário <br></br> Usuário  </h5>     
           </div>

@@ -26,7 +26,8 @@ const ChamadosList: React.FC = () => {
 
   return (
     <div>
-      <h1>Chamados</h1>
+      <h2>Chamados</h2>
+      <hr></hr>
       <table>
         <thead>
           <tr>

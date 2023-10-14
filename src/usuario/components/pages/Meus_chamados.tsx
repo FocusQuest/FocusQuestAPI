@@ -35,7 +35,9 @@ function ChamadosUsuarios() {
 
   return (
     
-    <div>      
+    <div>
+      <h2>Meus chamados</h2>
+      <hr></hr>      
       <table>
         <thead>
           <tr>
