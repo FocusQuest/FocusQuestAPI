@@ -7,7 +7,7 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     const userToken = localStorage.getItem("user_token");
-    const usersStorage = localStorage.getItem("users_bd");
+    const usersStorage = localStorage.getItem("users_db");
 
     if (userToken && usersStorage) {
       const hasUser = JSON.parse(usersStorage)?.filter(
@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const signin = (email, password) => {
-    const usersStorage = JSON.parse(localStorage.getItem("users_bd"));
+    const usersStorage = JSON.parse(localStorage.getItem("users_db"));
 
     const hasUser = usersStorage?.filter((user) => user.email === email);
 
@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const signup = (email, password) => {
-    const usersStorage = JSON.parse(localStorage.getItem("users_bd"));
+    const usersStorage = JSON.parse(localStorage.getItem("users_db"));
 
     const hasUser = usersStorage?.filter((user) => user.email === email);
 
@@ -54,7 +54,7 @@ export const AuthProvider = ({ children }) => {
       newUser = [{ email, password }];
     }
 
-    localStorage.setItem("users_bd", JSON.stringify(newUser));
+    localStorage.setItem("users_db", JSON.stringify(newUser));
 
     return;
   };

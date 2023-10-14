@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
   body{
     width: 100vw;
     height: 100vw;
-    background-color: #f0f2f5;
+    background-color: #f8f8f8;
     font-family: Arial, Helvetica, Sans-serif;
   }
 `;

@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import useAuth from "../../useAuth";
-import Button from "../components/Button";
-import Input from "../components/Input";
-import * as C from "../estilos/estilos_signin";
+import Button from "../../components/Button";
+import Input from "../../components/Input";
+import * as C from "../../estilos/estilos_signin";
+import useAuth from "../../hooks/useAuth";
 
 const Signin = () => {
   const { signin } = useAuth();
@@ -26,7 +26,7 @@ const Signin = () => {
       return;
     }
 
-    navigate("/home");
+  navigate("/usuario/Abrir_chamado");
   };
 
   return (

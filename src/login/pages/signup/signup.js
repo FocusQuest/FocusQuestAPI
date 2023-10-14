@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import useAuth from "../../useAuth";
-import Button from "../components/Button";
-import Input from "../components/Input";
-import * as C from "../estilos/estilos_signup";
+import Button from "../../components/Button";
+import Input from "../../components/Input";
+import * as C from "../../estilos/estilos_signup";
+import useAuth from "../../hooks/useAuth";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
