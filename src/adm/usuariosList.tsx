@@ -25,29 +25,29 @@ const UsuariosList: React.FC = () => {
   }
 
   return (
-    <div className='Container'>
-      <div>
-        <h1>Usuários registrados</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>Nome</th>
-              <th>Email</th>
-              <th>Telefone</th>
+  
+    <div>
+      <h1>Usuários registrados</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+        </thead>
+        <tbody>
+          {usuarios.map((usuario) => (
+            <tr key={usuario.id}>
+              <td>{usuario.nomeUsuario}</td>
+              <td>{usuario.emailUsuario}</td>
+              <td>{usuario.telefoneUsuario}</td>
             </tr>
-          </thead>
-          <tbody>
-            {usuarios.map((usuario) => (
-              <tr key={usuario.id}>
-                <td>{usuario.nomeUsuario}</td>
-                <td>{usuario.emailUsuario}</td>
-                <td>{usuario.telefoneUsuario}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+          ))}
+        </tbody>
+      </table>
     </div>
+    
   );
 };
 

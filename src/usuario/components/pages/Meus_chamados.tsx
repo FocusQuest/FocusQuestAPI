@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../css/estilos.css';
+import '../../../adm/css/table.css';
 
 interface Chamado {
   id: number;
@@ -27,20 +28,40 @@ function Chamados() {
     fetchChamados();
   }, [userId]);
 
+  const handleButtonClick = (id: number) => {
+      // Lógica para lidar com o clique do botão
+      console.log(`Botão 'Andamento' clicado para o chamado ${id}`);
+    };
+
   return (
-    <div>
-      <h4>Meus chamados</h4>
-      <ul>
-        {chamados.map(chamado => (
-          <li key={chamado.id}>
-            <h5>{chamado.nomeChamado}</h5>
-            <p>{chamado.descChamado}</p>
-            <p>{chamado.dataAberturaChamado}</p>
-            {/* Render other properties here */}
-          </li>
-          ))}
-        </ul>
-      </div>
+    
+    <div>      
+      <table>
+        <thead>
+          <tr>
+            <th>Número do Chamado</th>
+            <th>Nome do Chamado</th>
+            <th>Descrição do chamado</th>
+            <th>Data da abertura</th>
+            <th>Andamento</th>
+          </tr>
+        </thead>
+        <tbody>
+          {chamados.map(chamado => (
+            <tr key={chamado.id}>
+              <td>{chamado.id}</td>
+              <td>{chamado.nomeChamado}</td>
+              <td>{chamado.descChamado}</td>
+              <td>{chamado.dataAberturaChamado}</td>
+              <td>
+                <button onClick={() => handleButtonClick(chamado.id)}>Andamento</button>
+              </td>
+              {/* Render other properties here */}
+            </tr>            
+            ))}
+          </tbody>        
+      </table>
+    </div>
     
 
   );

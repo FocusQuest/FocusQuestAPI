@@ -1,9 +1,10 @@
 .Container {
-  /* display: flex; */
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 20px;
-  height: 100vh;
+  align-items: flex-start;
+  width: 65%;
+  margin: auto;
+  overflow:auto;
+  min-height: 300px;
+  padding: 10px;
 }
 
 .Content {
@@ -20,7 +21,7 @@
   border-radius: 5px;
 }
 
-.containerForm {
+/* .containerForm {
   align-items: flex-start;
   width: 65%;
   margin: auto;
@@ -28,7 +29,7 @@
   min-height: 300px;
   padding: 10px;
   
-}
+} */
 
 .Label {
   font-size: 18px;
@@ -51,17 +52,13 @@
   
 }
 
-.LabelContainer {
-  display: flex;
-  /* justify-content: space-between; */
-}
-
 .Column {
    
   flex-direction: column;
   flex: 1;
 }
 .LabelContainer{
+  display: flex;
   margin-bottom: 10px;
 }
 
@@ -150,10 +147,10 @@ h1 {
 
 .MenuSup{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   background-color: #eee;
-  width: 100%;
+  width: 102%;
   padding: 0 20px;
   margin-bottom: 20px;
   height: 80px;  
@@ -162,14 +159,14 @@ h1 {
 
 #MenuSupItem {
   float: right;
-  margin-right: 10px; 
-  line-height: normal; 
+  text-align: center;
+  margin-right: 10px;   
 }
 
-.img-menu {
+#img-menu {
   float: right;
-  margin-right: 10px; 
-  line-height: normal; 
+  /* margin-right: 10px;  */
+  
 }
 
 textarea {
