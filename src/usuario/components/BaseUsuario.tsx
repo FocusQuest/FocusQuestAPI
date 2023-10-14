@@ -1,8 +1,6 @@
-import React from 'react';
 import './css/index.css';
 import { Link, Outlet } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/estilos.css';
 
@@ -12,9 +10,14 @@ function Base() {
   return (
     <>
     <div className='MenuSup'>
-      {/* <div className="MenuSupImg> */}
-      {/* <img src="../img/sino.png"/>  */}
-    <p> este é o menu superior</p>     
+      <div id='MenuSupItem'>
+        <div className='img-menu'>
+          <img src="img/sino.png" alt="sino" />
+        </div>        
+      </div>
+      <div>
+      <h4> este é o menu superior</h4>     
+      </div>
     </div>
     <div className="Menu">
       <div className="container-fluid">
@@ -36,7 +39,7 @@ function Base() {
       </div>
     </div>
       <div className="Container">
-       <Outlet />
+        <Outlet />
       </div>
     </>
     

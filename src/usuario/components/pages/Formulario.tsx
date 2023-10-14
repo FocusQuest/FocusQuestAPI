@@ -49,9 +49,9 @@ const FormTeste: React.FC = () => {
 
 
   return (
-    <div className="Container">
+    <div className="containerForm">
       <div className="Label">
-        <label>Tipo de serviço</label>
+        <span className="description">Tipo de serviço</span>
         <select
           className={errors?.idCategoria && "input-error"}
           defaultValue="0"
@@ -67,7 +67,7 @@ const FormTeste: React.FC = () => {
       {/* idUsuario deve ser puxado dos dados de login */}
 
       <div className="Label">
-        <label>Assunto</label>
+      <span className="description">Assunto</span>    
         <input
           className={errors?.nomeChamado && "input-error"}
           type="text"
@@ -82,14 +82,15 @@ const FormTeste: React.FC = () => {
       </div>
 
       <div className="Label">
-        <label>Descrição</label>
+      <label>Descrição</label>
+      <br></br>
+      <br></br>
         <textarea
           className={errors?.descChamado && "input-error"}
-          // type="text"
           placeholder="Descrição do problema"
           {...register("descChamado", {
             required: true,
-            maxLength: 1400,
+            maxLength: 400,
             minLength: 10,
           })}
         />
@@ -97,55 +98,68 @@ const FormTeste: React.FC = () => {
           <p className="error-message">Campo obrigatório</p>
         )}
       </div>
+      
+      <div className="LabelContainer">
+        <div className="Column">
+          <div className="Label">
+            <label>Local</label>
+            <br></br>
+            <br></br>
+            <select
+              className={errors?.idLab && "input-error"}
+              defaultValue="0"
+              {...register("idLab", { validate: (value) => value !== 0 })}
+            >
+              <option value="0">Selecione...</option>
+              <option value="1">Lab 1</option>
+              <option value="2">Lab 2</option>
+              <option value="3">Lab 3</option>
+              <option value="4">Lab 4</option>
+              <option value="5">Sala dos professores</option>
+            </select>
+          </div>
 
-      <div className="Container">
-      <div className="Label">
-        <label>Local</label>
-        <select
-          className={errors?.idLab && "input-error"}
-          defaultValue="0"
-          {...register("idLab", { validate: (value) => value !== 0 })}
-        >
-          <option value="0">Selecione...</option>
-          <option value="1">Lab 1</option>
-          <option value="2">Lab 2</option>
-          <option value="3">Lab 3</option>
-          <option value="4">Lab 4</option>
-          <option value="5">Sala dos professores</option>
-        </select>
-      </div>
-
-      <div className="Label">
-        <label>Identificação do computador</label>
-        <select
-          className={errors?.idComputador && "input-error"}
-          defaultValue="0"
-          {...register("idComputador", { validate: (value) => value !== 0 })}
-        >
-          <option value="0">Selecione...</option>
-          <option value="7">10</option>
-          <option value="8">20</option>
-          <option value="9">30</option>
-          <option value="10">40</option>
-          <option value="11">Profs-1</option>
-        </select>
-      </div>
-
-      <div className="Label">
-        <div className="anexo">
-          <label>Anexo</label>
-          <input
-            type="file"
-            placeholder="Clique aqui para selecionar os arquivos ou arraste-os aqui"
-          />
+          <div className="Label">
+            <label>Identificador da máquina</label>
+            <br></br>
+            <br></br>
+            <select
+              className={errors?.idComputador && "input-error"}
+              defaultValue="0"
+              {...register("idComputador", { validate: (value) => value !== 0 })}
+            >
+              <option value="0">Selecione...</option>
+              <option value="7">10</option>
+              <option value="8">20</option>
+              <option value="9">30</option>
+              <option value="10">40</option>
+              <option value="11">Profs-1</option>
+            </select>
+          </div>
         </div>
-      </div>
 
-      <div className="Label">
-        <button onClick={handleSubmit(onSubmit)}>Enviar</button>
-      </div>
+          <div className="LabelAnexo">
+            <label>Anexos</label>
+              <br></br>
+              <div className="Anexo">
+              <input
+                  type="file"
+                  
+              />              
+              </div>
+            
+          </div>
+        </div>
+
+          <div className="Label">
+            <div id="enviar">
+              <button onClick={handleSubmit(onSubmit)}>Enviar</button>
+            </div>
+          </div>
+        
     </div>
-    </div>
+    
+    
   );
 };
 
