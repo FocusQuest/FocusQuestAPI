@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { AuthProvider } from './login/contexts/auth';
-import UsuariosList from './adm/usuariosList';
+import UsuariosList from './adm/pages/usuariosList';
 import Base from './usuario/components/BaseUsuario';
 import useAuth from './login/hooks/useAuth';
 // import Home from './login/pages/Home';
@@ -14,8 +14,13 @@ import Painel from './usuario/components/pages/Meu_painel';
 // import Chamados from './usuario/components/Meus_chamados';
 import GlobalStyle from './login/estilos/global.js';
 import Home from './login/pages/home/home';
-import ChamadosList from './técnico/chamadosList';
-import Meus_chamados from './usuario/components/pages/Meus_chamados';
+import ChamadosList from './adm/pages/chamadosList';
+import Formulario from './usuario/components/pages/Formulario';
+import Chamados from './usuario/components/pages/Meus_chamados';
+import BaseAdm from './adm/BaseAdm';
+import Ferramentas from './adm/pages/ferramentas';
+import Admin from './adm/pages/admin';
+import ChamadosUsuarios from './usuario/components/pages/Meus_chamados';
 
 
 /**
@@ -44,11 +49,15 @@ const App = (): JSX.Element => {
               <Route path="/usuario" element={<Base />}>
                 <Route path="Meu_painel" element={<Painel />} />
                 <Route path="Duvidas" element={<Duvidas />} />
-                <Route path="Abrir_chamado" element={<FormTeste/>} />
-                <Route path="Meus_chamados" element={<Meus_chamados />} />
+                <Route path="Abrir_chamado" element={<Formulario/>} />
+                <Route path="Meus_chamados" element={<ChamadosUsuarios/>} />
                 {/* <Route path="Formulario" element={<FormTeste />} /> */}
-                {/* <Route path="Chamados" element={<ChamadosList />} /> */}
-                <Route path="usuarios" element={<UsuariosList />} />              
+              </Route>
+              <Route path="/adm" element={<BaseAdm />}>
+                <Route path="Usuarios" element={<UsuariosList />} /> 
+                <Route path="Ferramentas" element={<Ferramentas />} />        
+                <Route path="Admin" element={<Admin />} />    
+                <Route path="Chamados" element={<ChamadosList />} />   
               </Route>
           </Routes>
         </React.Fragment>

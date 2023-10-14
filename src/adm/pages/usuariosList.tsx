@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './css/table.css';
+import '../css/table.css';
 
 interface Usuario {
   id: number;

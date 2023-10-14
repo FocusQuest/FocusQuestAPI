@@ -13,7 +13,7 @@ type FormData = {
   idComputador: number;
 };
 
-const FormTeste: React.FC = () => {
+const Formulario: React.FC = () => {
   const {
     register,
     handleSubmit,
@@ -164,4 +164,4 @@ const FormTeste: React.FC = () => {
 };
 
 
-export default FormTeste;
+export default Formulario;

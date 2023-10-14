@@ -1,0 +1,176 @@
+.Container {
+  align-items: flex-start;
+  width: 65%;
+  margin: auto;
+  overflow:auto;
+  min-height: 300px;
+  padding: 10px;
+}
+
+.Content {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0 1px 2px #0003;
+  background-color: white;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* .containerForm {
+  align-items: flex-start;
+  width: 65%;
+  margin: auto;
+  overflow:auto;
+  min-height: 300px;
+  padding: 10px;
+  
+} */
+
+.Label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #676767;
+  margin-bottom: 40px;
+  margin-right: 10px;  
+}
+
+.Label .description{
+  margin-right: 10px;
+}
+
+.LabelAnexo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #676767;
+  margin-top: 35px;
+  margin-right: 10px;
+  
+}
+
+.Column {
+   
+  flex-direction: column;
+  flex: 1;
+}
+.LabelContainer{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.Anexo {
+  
+  border-radius: 5px;
+  background-color: #fafafa;
+  height: 121px; 
+}
+
+#enviar {
+  display: flex;
+  justify-content: center;  
+}
+.InputContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  
+}
+
+.labelError {
+  font-size: 14px;
+  color: red;
+}
+
+.Strong {
+  cursor: pointer;
+}
+
+.Strong a {
+  text-decoration: none;
+  color: #676767;
+}
+
+.Menu {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ebedf1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#sidebar {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  background-color: #313132;
+  padding-top: 20px;
+  color: white;
+}
+
+.sidebar-header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-unstyled a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 10px;
+  display: block;
+}
+
+.list-unstyled a:hover {
+  background-color: #495057;
+}
+
+.MenuSup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  width: 102%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  height: 80px;  
+  margin-top: -20px; 
+}
+
+#MenuSupItem {
+  float: right;
+  text-align: center;
+  margin-right: 10px;   
+}
+
+#img-menu {
+  float: right;
+  /* margin-right: 10px;  */
+  
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: vertical; /* ou "both" se quiser permitir redimensionamento horizontal também */
+}

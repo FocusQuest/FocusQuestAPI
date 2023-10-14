@@ -11,7 +11,7 @@ interface Chamado {
   // Include other properties here
 }
 
-function Chamados() {
+function ChamadosUsuarios() {
   const [chamados, setChamados] = useState<Chamado[]>([]);
   const userId = 2; // Replace with the actual user ID value
 
@@ -67,4 +67,4 @@ function Chamados() {
   );
 }
 
-export default Chamados;
+export default ChamadosUsuarios;
