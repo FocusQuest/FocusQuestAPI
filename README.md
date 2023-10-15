@@ -44,7 +44,9 @@ Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente
 
 ## MVP
 
-(Adicionar aqui o link)
+Demonstração do sistema, com os logins do usuário, técnico e administrador. Além do sistema de abertura e visualização dos chamados:
+
+https://www.youtube.com/watch?v=WkS1XBF6uiQ
 
 <hr>
 
