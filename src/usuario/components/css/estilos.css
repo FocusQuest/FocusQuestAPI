@@ -354,3 +354,9 @@ h1 {
   background-color: rgb(41, 41, 49);
   color: aliceblue;
 }
+
+#buttonSucesso {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}

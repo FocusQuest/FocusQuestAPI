@@ -41,7 +41,7 @@ const Signin = () => {
       setId(responseLogin.data.usuario.id);
 
       if (responseLogin.status === 202) {
-        navigate("/usuario/Abrir_chamado");
+        navigate("/usuario/Meu_painel");
       }
     } catch (error) {
       console.error(error);
