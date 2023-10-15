@@ -45,7 +45,7 @@ function ChamadosUsuarios() {
             <th>Nome do Chamado</th>
             <th>Descrição do chamado</th>
             <th>Data da abertura</th>
-            <th>Andamento</th>
+            <th>Status</th>
           </tr>
         </thead>
         <tbody>
