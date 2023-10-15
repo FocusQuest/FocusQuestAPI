@@ -26,7 +26,10 @@ function Painel() {
             <p>3</p>
           </div>
         </div>
+
       </div>
+      <h2>Chamados recentes</h2>
+      <hr></hr>
     </div>
   );
 }
