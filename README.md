@@ -53,7 +53,7 @@ Aqui estão as seguintes tecnologias que utilizamos:
 ## Backlog do produto
 
 
-<img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
+<img src="/doc/assets/ProductBacklog_SP2.png" width="680px">
 
 
 ## Execução do Sistema
