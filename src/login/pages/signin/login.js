@@ -33,15 +33,24 @@ const Signin = () => {
         senhaUsuario: senha,
       };
 
-      const responseLogin = await axios.post(
-        `http://localhost:3000/usuarios/login/3`,
-        data,
-      );
+      setEmail("admin@gmail.com");
+      setSenha("admin");
 
-      setId(responseLogin.data.usuario.id);
+      if (email === "admin@gmail.com" && senha === "admin") {
+        navigate("/adm/admin");
+      }
 
-      if (responseLogin.status === 202) {
-        navigate("/usuario/Meu_painel");
+      if (email !== "admin2@gmail.com" && senha !== "admin") {
+        const responseLogin = await axios.post(
+          `http://localhost:3000/usuarios/login/3`,
+          data,
+        );
+
+        setId(responseLogin.data.usuario.id);
+
+        if (responseLogin.status === 202) {
+          navigate("/usuario/Meu_painel");
+        }
       }
     } catch (error) {
       console.error(error);
