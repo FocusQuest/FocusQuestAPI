@@ -26,7 +26,7 @@ const Signin = () => {
       return;
     }
 
-  navigate("/usuario/Abrir_chamado");
+  navigate("/usuario/Meu_painel");
   };
 
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from 'react-hook-form';
 import '../css/estilos.css';
-
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 type FormData = {
@@ -19,6 +19,7 @@ const Formulario: React.FC = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<FormData>();
+  const navigate = useNavigate();
 
   const onSubmit = async (data: FormData) => {
     try {
@@ -37,6 +38,7 @@ const Formulario: React.FC = () => {
         const createdChamado = response.data;
         // Do something with the created chamado object
         console.log('Chamado:', createdChamado); // For example, log the created chamado
+        navigate('/usuario/Sucesso');
       } else {
         // Handle the error case
         console.log('Erro ao criar chamado');
@@ -156,9 +158,11 @@ const Formulario: React.FC = () => {
         </div>
       </div>
 
-      <div className="Label">
+      <div className="Label">        
         <div id="enviar">
-          <button onClick={handleSubmit(onSubmit)}>Enviar</button>
+          <Link to="/usuario/Meu_painel">
+            <button onClick={handleSubmit(onSubmit)}>Enviar</button>
+          </Link>
         </div>
       </div>
 

@@ -30,9 +30,9 @@ function BaseAdm() {
                     <h4 > HelpDesk</h4>
                   </div>
                   <div className="list-unstyled components">
-                    <Nav.Link as={Link} to="usuarios"> Usuarios </Nav.Link>
+                    <Nav.Link as={Link} to="admin"> Administração </Nav.Link>                    
                     <Nav.Link as={Link} to="ferramentas"> Ferramentas </Nav.Link>
-                    <Nav.Link as={Link} to="admin"> Administração </Nav.Link>
+                    <Nav.Link as={Link} to="usuarios"> Usuarios </Nav.Link>
                     <Nav.Link as={Link} to="Chamados"> Chamados </Nav.Link>
                   </div>                
                 </nav>                

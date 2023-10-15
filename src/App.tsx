@@ -21,6 +21,7 @@ import BaseAdm from './adm/BaseAdm';
 import Ferramentas from './adm/pages/ferramentas';
 import Admin from './adm/pages/admin';
 import ChamadosUsuarios from './usuario/components/pages/Meus_chamados';
+import ChamadoEnviado from './usuario/components/pages/chamado_enviado';
 
 
 /**
@@ -51,7 +52,7 @@ const App = (): JSX.Element => {
                 <Route path="Duvidas" element={<Duvidas />} />
                 <Route path="Abrir_chamado" element={<Formulario/>} />
                 <Route path="Meus_chamados" element={<ChamadosUsuarios/>} />
-                {/* <Route path="Formulario" element={<FormTeste />} /> */}
+                <Route path="Sucesso" element={<ChamadoEnviado />} /> 
               </Route>
               <Route path="/adm" element={<BaseAdm />}>
                 <Route path="Usuarios" element={<UsuariosList />} /> 
