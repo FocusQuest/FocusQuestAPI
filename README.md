@@ -6,7 +6,9 @@
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
 - [Equipe](#Equipe)
 - [Backlog do produto](#Backlog-do-produto)
+- [Execução do Sistema](#Execução-do-Sistema)
 - [Relatório de entregas](#Relatório-de-entregas)
+
 
 ## Sobre o projeto
 
@@ -53,15 +55,6 @@ Aqui estão as seguintes tecnologias que utilizamos:
 
 <img src="/doc/assets/ProductBacklog.jpeg.png" width="680px">
 
-## Relatório de entregas
-
-| Sprint | Período | Status | Relatório |
-|:-----:|:----------:|:---------:|:---------:|
-| 1 | 04/09/2023 - 24/09/2023 | Concluído  | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-1)  |
-| 2 | 25/09/2023 - 15/10/2023 | Em andamento | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-2) |  
-| 3 | 16/10/2023 - 05/11/2023 | Não iniciado |  -  | 
-| 4 | 06/11/2023 - 26/11/2023 | Não iniciado |  -  |
-
 
 ## Execução do Sistema
 
@@ -106,5 +99,14 @@ Aqui estão as seguintes tecnologias que utilizamos:
 - Confirme para continuar    
 
 - A aplicação estará rodando no endereço http://localhost:3001
+
+## Relatório de entregas
+
+| Sprint | Período | Status | Relatório |
+|:-----:|:----------:|:---------:|:---------:|
+| 1 | 04/09/2023 - 24/09/2023 | Concluído  | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-1)  |
+| 2 | 25/09/2023 - 15/10/2023 | Concluído | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-2) |  
+| 3 | 16/10/2023 - 05/11/2023 | Em andamento |  -  | 
+| 4 | 06/11/2023 - 26/11/2023 | Não iniciado |  -  |
 
 [➳ Retornar ao início](#Sumário)
