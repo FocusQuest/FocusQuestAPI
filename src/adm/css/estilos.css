@@ -174,3 +174,60 @@ textarea {
   height: 150px;
   resize: vertical; /* ou "both" se quiser permitir redimensionamento horizontal também */
 }
+
+/* Personalização da página ferramentas */
+
+.containerFAQ {
+  padding: 20px;
+}
+/* Estilos para o container de Ferramentas */
+.containerFAQ {
+  padding: 20px;
+}
+
+/* Estilos para os itens de FAQ */
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Adiciona uma borda em torno dos elementos */
+  padding: 10px;
+  border-radius: 5px; /* Borda arredondada */
+}
+
+.faq-item h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.faq-item p {
+  margin-top: 10px;
+}
+
+.faq-item ol {
+  list-style: decimal;
+  padding-left: 20px;
+}
+
+
+/* Estilos para a containerAdmin */
+
+/* Estilos para o container dos botões de administração */
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Estilos para os botões de administração */
+.admin-button {
+  width: 250px;
+  height: 150px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.admin-button:hover {
+  opacity: 0.8;
+}
