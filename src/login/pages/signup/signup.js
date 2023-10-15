@@ -4,34 +4,58 @@ import Button from "../../components/Button";
 import Input from "../../components/Input";
 import * as C from "../../estilos/estilos_signup";
 import useAuth from "../../hooks/useAuth";
+import axios from "axios";
 
 const Signup = () => {
+  const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [emailConf, setEmailConf] = useState("");
   const [senha, setSenha] = useState("");
+  const [telefone = "", setTelefone] = useState("");
+  const [nivelAcesso = "1", setNivelAcesso] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
   const { signup } = useAuth();
 
-  const handleSignup = () => {
-    if (!email | !emailConf | !senha) {
-      setError("Preencha todos os campos");
-      return;
-    } else if (email !== emailConf) {
-      setError("Os e-mails não são iguais");
-      return;
-    }
+  const handleSignup = async () => {
+    try {
+      if (!email | !emailConf | !senha) {
+        setError("Preencha todos os campos");
+        return;
+      } else if (email !== emailConf) {
+        setError("Os e-mails não são iguais");
+        return;
+      }
 
-    const res = signup(email, senha);
+      const res = signup(email, senha);
 
-    if (res) {
-      setError(res);
-      return;
-    }
+      if (res) {
+        setError(res);
+        return;
+      }
 
-    alert("Usuário cadatrado com sucesso!");
-    navigate("/");
+      const data = {
+        nomeUsuario: nome,
+        emailUsuario: email,
+        senhaUsuario: senha,
+        telefoneUsuario: telefone,
+        idNivelAcesso: nivelAcesso,
+      };
+
+      setNome("");
+      setTelefone("");
+      setNivelAcesso("");
+
+      const responseCadastro = await axios.post(
+        `http://localhost:3000/usuarios`,
+        data,
+      );
+      if (responseCadastro.status === 201) {
+        alert("Usuário cadatrado com sucesso!");
+        navigate("/");
+      }
+    } catch (error) {}
   };
 
   return (
