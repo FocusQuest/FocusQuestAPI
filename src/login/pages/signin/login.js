@@ -33,14 +33,11 @@ const Signin = () => {
         senhaUsuario: senha,
       };
 
-      setEmail("admin@gmail.com");
-      setSenha("admin");
-
       if (email === "admin@gmail.com" && senha === "admin") {
         navigate("/adm/admin");
-      }
-
-      if (email !== "admin@gmail.com" && senha !== "admin") {
+      } else if (email === "tecnico@gmail.com" && senha === "tecnico") {
+        navigate("/suporte/tecnico");
+      } else {
         const responseLogin = await axios.post(
           `http://localhost:3000/usuarios/login/3`,
           data,
