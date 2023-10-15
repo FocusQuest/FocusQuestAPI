@@ -27,7 +27,7 @@ const UsuariosList: React.FC = () => {
   return (
   
     <div>
-      <h1>Usuários registrados</h1>
+      <h2>Usuários registrados</h2>
       <table>
         <thead>
           <tr>

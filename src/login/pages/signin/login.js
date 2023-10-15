@@ -40,7 +40,7 @@ const Signin = () => {
         navigate("/adm/admin");
       }
 
-      if (email !== "admin2@gmail.com" && senha !== "admin") {
+      if (email !== "admin@gmail.com" && senha !== "admin") {
         const responseLogin = await axios.post(
           `http://localhost:3000/usuarios/login/3`,
           data,
