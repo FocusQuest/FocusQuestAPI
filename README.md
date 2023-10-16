@@ -34,12 +34,13 @@ Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente
 |:--------------:  | :----------:|
 | **01** | Estudo sobre ORM Prisma |
 | **02** | Estudo para setar NodeJS express com Typescript |   
-| **03** | Adaptação do banco de dados físico para integração com o back-end |   
-| **05** | Criação das telas do sistema em Typescript |  
+| **03** | Adaptação do banco de dados físico para integração com o back-end |
+| **04** | Criação da tela de login em Typescript |  
+| **05** | Criação da tela de abertura de chamados em Typescript |  
 | **06** | Estudo sobre sistemas de login com níveis de acesso | 
 | **07** | Desenvolver a função de login do usuário | 
-| **08** | Desenvolver a função registro de chamados |
-| **09** | Desenvolver a função registro de usuários | 
+| **08** | Desenvolver a função de login do técnico |
+| **09** | Desenvolver a função de login do administrador | 
 | **10** | Estudo sobre React e SPA |
 
 ## MVP
