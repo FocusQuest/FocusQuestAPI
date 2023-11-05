@@ -46,7 +46,7 @@ Essa sprint foi focada na finalização e melhora de tarefas das sprints anterio
 | **11** | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) |
 | **12** | Adicionar para o ADM a funcionalidade de criação de usuário e técnico |
 | **13** | Desenvolver as telas do técnico |
-| **14** | Criar para o técnico a função assumir chamado |
+| **14** | Criar para o técnico a função de assumir chamado |
 | **15** | Encriptar a senha dos usuários do sistema |
 
 ## MVP
