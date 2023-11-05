@@ -33,26 +33,21 @@ Essa sprint foi focada na finalização e melhora de tarefas das sprints anterio
 
  ID | Tarefa |
 |:--------------:  | :----------:|
-| **01** | Ajustar o menu |
-| **02** | Ajuste do banco de dados |   
-| **03** | Separar o arquivo de rotas |
-| **04** | Arrumar o layout |  
-| **05** | Inserir o número do chamado na página de chamado enviado |  
-| **06** | Inserir o nome do usuário no menu superior | 
-| **07** | Associar o idUsuario logado na criação de chamado e associar o idUsuario logado aos meus chamados | 
-| **08** | Incluir mais dados em exibição na página Meus Chamados em aberto como: local e máquina |
-| **09** | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 
-| **10** | Adicionar a funcionalidade de prioridade de acordo com as categorias dos chamados |
-| **11** | Implementar o status do chamado (aberto, em andamento, concluído, atrasado) |
-| **12** | Formatar a exibição da data de criação do chamado, criação, inicio e conclusão (mais simples)Formatar a exibição da data de criação do chamado, criação, inicio e conclusão (mais simples) |
-| **13** | Alimentar o banco com dados |
-| **14** | Refatorar os controllers de chamados e usuários em arquivos separados (dividir os arquivos das rotas e métodos, funciona juntos, mas precisa separar os métodos por arquivo) |
-| **15** | Adicionar a funcionalidade de criação de usuário/técnico pelo ADM |
-| **16** | Criar tela do técnico |
-| **17** | Incluir no chamado, assim que iniciar a sua tratativa, o id do técnico responsável por ele e incluir também a data de início da tratativa do chamado |
-| **18** | Incluir a data de finalização do chamado assim que ele for concluído |
-| **19** | Verificar o token para restringir a entrada dos usuários pela rota |
-| **20** | Criar a opção de assumir chamado pelo técnico |
+| **01** | Fazer ajustes no layout das páginas |
+| **02** | Atualizar o banco de dados |   
+| **03** | Separar o arquivo de rotas para organização do código |  
+| **04** | Exibir o nome do usuário, técnico ou adm no topo da página ao logar | 
+| **05** | Associar o idUsuario aos chamados criados para exibi-los no "meus chamados" | 
+| **06** | Incluir os dados "local" e "máquina" na página "Meus Chamados" |
+| **07** | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 
+| **08** | Adicionar para o Adm a funcionalidade de atribuir prioridade ao chamado |
+| **09** | Exibir o status do chamado conforme seu andamento |
+| **10** | Formatar a exibição da data de criação, início e conclusão do chamado |
+| **11** | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) |
+| **12** | Adicionar para o ADM a funcionalidade de criação de usuário e técnico |
+| **13** | Desenvolver as telas do técnico |
+| **14** | Criar para o técnico a função assumir chamado |
+| **15** | Encriptar a senha dos usuários do sistema |
 
 ## MVP
 
