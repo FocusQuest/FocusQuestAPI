@@ -10,7 +10,7 @@
 
 ## Sobre a sprint
 
-Essa sprint foi focada na finalização e melhora de tarefas das sprints anteriores, além de maior desenvolvimento das ferramentas do programa, adição da prioridade dos chamados e permitir que o administrador atribua chamados aos técnicos.
+Essa sprint foi focada na finalização e melhora de tarefas das sprints anteriores, além de maior desenvolvimento das ferramentas do programa, adição da prioridade dos chamados e permitir a atribuição dos chamados aos técnicos.
 
 ## Tecnologias utilizadas
 
