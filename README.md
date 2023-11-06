@@ -51,7 +51,7 @@ Essa sprint foi focada na finalização e melhora de tarefas das sprints anterio
 
 ## MVP
 
-Demonstração do sistema, com a possibilidade do técnico assumir o chamado e capacidade do administrador definir a prioridade do chamado. Além disso, também houve a implementação da funcionalidade de criar usuário e definir seu nível de acesso.
+Demonstração do sistema, com a possibilidade do técnico assumir o chamado e capacidade do administrador definir a prioridade do chamado. Além disso, também houve a implementação da funcionalidade de criar um cadastro e definir seu nível de acesso.
 
 https://www.youtube.com/watch?v=-ox1fiqnF6E
 
