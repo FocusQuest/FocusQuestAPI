@@ -1,5 +1,5 @@
 <h1 align="center">Sprint 4: 06/11/2023 - 26/11/2023</h1>
-## - SPRINT NÃO INICIADA -
+## - SPRINT EM ANDAMENTO -
 
 ## Sumário
 
@@ -12,7 +12,7 @@
 
 ## Sobre a sprint
 
-(Sprint não iniciada)
+(Sprint em andamento)
 
 ## Tecnologias utilizadas
 
@@ -46,7 +46,7 @@
 
 ## MVP
 
-((Sprint não iniciada) - Inserir o link aqui)
+((Sprint em andamento) - Inserir o link aqui)
 
 <hr>
 
