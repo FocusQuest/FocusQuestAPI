@@ -4,6 +4,7 @@
 
 - [Sobre a sprint](#Sobre-a-sprint)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
+- [User storys trabalhadas](#UserStorys-trabalhadas)
 - [Backlog da sprint](#Backlog-da-sprint)
 - [MVP](#MVP)
 
@@ -28,20 +29,31 @@ Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente
 <img src="https://img.shields.io/badge/Discord-CED4DA?opensans&logo=discord&logoColor=white&color=blue" alt="Discord" /> 
 <img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" /> 
 
+ 
+## UserStorys trabalhadas
+
+ ID | UserStory |
+|:--------------:  | :----------:|
+| **03** | Eu como usuário desejo poder solicitar suporte técnico através de um formulário para que o problema seja solucionado |
+| **04** | Eu como usuário desejo poder realizar o login a fim de obter acesso ao meu perfil e funcionalidades | 
+| **05** | Eu como técnico desejo poder realizar o login a fim de obter acesso ao meu perfil e funcionalidades |
+| **06** | Eu como administrador desejo poder realizar o login a fim de obter acesso ao meu perfil e funcionalidades | 
+
+
 ## Backlog da sprint
 
- ID | Tarefa |
-|:--------------:  | :----------:|
-| **01** | Estudo sobre ORM Prisma |
-| **02** | Estudo para setar NodeJS express com Typescript |   
-| **03** | Adaptação do banco de dados físico para integração com o back-end |
-| **04** | Criação da tela de login em Typescript |  
-| **05** | Criação da tela de abertura de chamados em Typescript |  
-| **06** | Estudo sobre sistemas de login com níveis de acesso | 
-| **07** | Desenvolver a função de login do usuário | 
-| **08** | Desenvolver a função de login do técnico |
-| **09** | Desenvolver a função de login do administrador | 
-| **10** | Estudo sobre React e SPA |
+ ID | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------:|:--------------:|
+| **01** | Estudo sobre ORM Prisma | 20 horas |
+| **02** | Estudo para setar NodeJS express com Typescript | 13 horas |   
+| **03** | Adaptação do banco de dados físico para integração com o back-end | 5 horas |
+| **04** | Criação da tela de login em Typescript | 13 horas |  
+| **05** | Criação da tela de abertura de chamados em Typescript | 20 horas |  
+| **06** | Estudo sobre sistemas de login com níveis de acesso | 30 horas | 
+| **07** | Desenvolver a função de login do usuário | 8 horas | 
+| **08** | Desenvolver a função de login do técnico | 8 horas |
+| **09** | Desenvolver a função de login do administrador | 8 horas | 
+| **10** | Estudo sobre React e SPA | 13 horas |
 
 ## MVP
 
