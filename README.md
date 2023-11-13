@@ -4,6 +4,7 @@
 
 - [Sobre a sprint](#Sobre-a-sprint)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
+- [User storys trabalhadas](#UserStorys-trabalhadas)
 - [Backlog da sprint](#Backlog-da-sprint)
 - [MVP](#MVP)
 
@@ -28,26 +29,35 @@ Essa sprint foi focada na finalização e melhora de tarefas das sprints anterio
 <img src="https://img.shields.io/badge/Discord-CED4DA?opensans&logo=discord&logoColor=white&color=blue" alt="Discord" /> 
 <img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" /> 
 
+## UserStorys trabalhadas
+
+ ID | UserStory |
+|:--------------:  | :----------:|
+| **07** | Eu como administrador, desejo poder atribuir a prioridade dos chamados a fim de analisar e indicar a gravidade/urgência do chamado aberto  |
+| **08** | Eu como usuário, desejo visualizar o andamento dos chamados abertos para saber seu status |
+| **09** | Eu como administrador, desejo registrar novos usuários e técnicos para que eles possam ter acesso ao sistema |
+| **10** | Eu como técnico, desejo poder assumir um chamado a fim de atendê-lo |  
+
 
 ## Backlog da sprint
 
- ID | Tarefa |
-|:--------------:  | :----------:|
-| **01** | Fazer ajustes no layout das páginas |
-| **02** | Atualizar o banco de dados |   
-| **03** | Separar o arquivo de rotas para organização do código |  
-| **04** | Exibir o nome do usuário, técnico ou adm no topo da página ao logar | 
-| **05** | Associar o idUsuario aos chamados criados para exibi-los no "meus chamados" | 
-| **06** | Incluir os dados "local" e "máquina" na página "Meus Chamados" |
-| **07** | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 
-| **08** | Adicionar para o Adm a funcionalidade de atribuir prioridade ao chamado |
-| **09** | Exibir o status do chamado conforme seu andamento |
-| **10** | Formatar a exibição da data de criação, início e conclusão do chamado |
-| **11** | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) |
-| **12** | Adicionar para o ADM a funcionalidade de criação de usuário e técnico |
-| **13** | Desenvolver as telas do técnico |
-| **14** | Criar para o técnico a função de assumir chamado |
-| **15** | Encriptar a senha dos usuários do sistema |
+ ID | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------:|:--------------:|
+| **01** | Fazer ajustes no layout das páginas | 10 horas |
+| **02** | Atualizar o banco de dados | 13 horas |   
+| **03** | Separar o arquivo de rotas para organização do código | 5 horas |  
+| **04** | Exibir o nome do usuário, técnico ou adm no topo da página ao logar | 6 horas | 
+| **05** | Associar o idUsuario aos chamados criados para exibi-los no "meus chamados" | 6 horas | 
+| **06** | Incluir os dados "local" e "máquina" na página "Meus Chamados" | 5 horas |
+| **07** | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 8 horas | 
+| **08** | Adicionar para o Adm a funcionalidade de atribuir prioridade ao chamado | 13 horas |
+| **09** | Exibir o status do chamado conforme seu andamento | 5 horas |
+| **10** | Formatar a exibição da data de criação, início e conclusão do chamado | 5 horas |
+| **11** | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) | 11 horas |
+| **12** | Adicionar para o ADM a funcionalidade de criação de usuário e técnico | 5 horas |
+| **13** | Desenvolver as telas do técnico | 5 horas |
+| **14** | Criar para o técnico a função de assumir chamado | 13 horas |
+| **15** | Encriptar a senha dos usuários do sistema | 5 horas |
 
 ## MVP
 
