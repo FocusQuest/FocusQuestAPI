@@ -50,9 +50,9 @@ Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente
 | **04** | Criação da tela de login em Typescript | 13 horas |  
 | **05** | Criação da tela de abertura de chamados em Typescript | 20 horas |  
 | **06** | Estudo sobre sistemas de login com níveis de acesso | 30 horas | 
-| **07** | Desenvolver a função de login do usuário | 8 horas | 
-| **08** | Desenvolver a função de login do técnico | 8 horas |
-| **09** | Desenvolver a função de login do administrador | 8 horas | 
+| **07** | Desenvolver a função de login do usuário | 12 horas | 
+| **08** | Desenvolver a função de login do técnico | 12 horas |
+| **09** | Desenvolver a função de login do administrador | 12 horas | 
 | **10** | Estudo sobre React e SPA | 13 horas |
 
 ## MVP
