@@ -4,6 +4,7 @@
 
 - [Sobre a sprint](#Sobre-a-sprint)
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
+- [User storys trabalhadas](#UserStorys-trabalhadas)
 - [Backlog da sprint](#Backlog-da-sprint)
 - [MVP](#MVP)
 
@@ -20,21 +21,28 @@
 <img src="https://img.shields.io/badge/Discord-CED4DA?opensans&logo=discord&logoColor=white&color=blue" alt="Discord" /> 
 <img src="https://img.shields.io/badge/GitHub-CED4DA?opensans&logo=github&logoColor=whitek&color=blue" alt="GitHub" />
 
+## UserStorys trabalhadas
+
+ ID | UserStory |
+|:--------------:  | :----------:|
+| **01** | Eu como cliente, desejo visualizar o protótipo do projeto para ter noção de como o sistema ficará |
+| **02** | Eu como cliente, desejo visualizar um modelo de formulário para ter uma ideia de quais serão as informações fornecidas na página de abertura de chamados |   
+
 ## Backlog da sprint
 
- ID | Tarefa |
-|:--------------:  | :----------:|
-| **01** | Criação do mockup do projeto no Figma |
-| **02** | Conversão do mockup em protótipo navegável |   
-| **03** | Estudo da estrutura do sistema para elaboração do modelo de dados |   
-| **05** | Criação do modelo de dados conceitual |  
-| **06** | Conversão do modelo conceitual para o lógico | 
-| **07** | Estudo sobre banco de dados MySQL | 
-| **08** | Estudo sobre o funcionamento de sistemas de gerenciamento de chamados |
-| **09** | Estudo sobre TypeScript | 
-| **10** | Estudo sobre NodeJS |
-| **11** | Estudo sobre React | 
-| **12** | Elaborar um modelo de formulário a ser preenchido para abertuda de chamado | 
+ ID | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------: |:--------------:|
+| **01** | Criação do mockup do projeto no Figma | 8 horas |
+| **02** | Conversão do mockup em protótipo navegável | 5 horas |   
+| **03** | Estudo da estrutura do sistema para elaboração do modelo de dados | 10 horas |   
+| **05** | Criação do modelo de dados conceitual | 5 horas |  
+| **06** | Conversão do modelo conceitual para o lógico | 3 horas | 
+| **07** | Estudo sobre banco de dados MySQL | 13 horas | 
+| **08** | Estudo sobre o funcionamento de sistemas de gerenciamento de chamados | 13 horas |
+| **09** | Estudo sobre TypeScript | 10 horas | 
+| **10** | Estudo sobre NodeJS | 10 horas |
+| **11** | Estudo sobre React | 12 horas | 
+| **12** | Elaborar um modelo de formulário a ser preenchido para abertuda de chamado | 3 horas | 
 
 
 ## MVP
