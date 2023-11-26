@@ -31,18 +31,18 @@
 
  ID | Tarefa | Estimativa de esforço |
 |:--------------:  | :----------:|:--------------:|
-| **01** |  |  horas |
-| **01** |  |  horas |
-| **01** |  |  horas |
-| **02** |  |  horas |  
-| **03** |  |  horas |
-| **04** |  |  horas |  
-| **05** |  |  horas |  
-| **06** |  |  horas | 
-| **07** |  |  horas | 
-| **08** |  |  horas |
-| **09** |  |  horas | 
-| **10** |  |  horas |
+| **01** | Ajustar a estrutura do banco de dados |  horas |
+| **02** | Alimentar o banco de dados |  horas |
+| **03** | Ajustar o layout das páginas |  horas |
+| **04** | Adicionar na tela do adm a opção para gerar relatórios |  horas |  
+| **05** | Adicionar para o técnico a função de concluir o chamado |  horas |
+| **06** | Adicionar a função de logout para os usuários |  horas |  
+| **07** | Criar a funcionalidade para editar dados cadastrais |  horas |  
+| **08** | Criar a funcionalidade para excluir usuários |  horas | 
+| **09** | Criar o manual de usuário (online) |  horas | 
+| **10** | Adicionar perguntas frequentes ao FAQ  |  horas |
+| **11** | Exibir para o usuário a solução do chamado descrita pelo técnico |  horas | 
+| **12** | Criar a função de atualização automática do status para atrasado quando o tempo de resolução for excedido |  horas |
 
 ## MVP
 
