@@ -41,7 +41,7 @@
 
 ## Backlog da sprint
 
- ID | Tarefa | Estimativa de esforço |
+ ID | Categoria | Tarefa | Estimativa de esforço |
 |:--------------:  | :----------:|:--------------:|
 | **01** | BD | Ajustar a estrutura do banco de dados |  horas |
 | **02** | BD | Alimentar o banco de dados |  horas |
@@ -53,7 +53,7 @@
 | **08** | BackEnd | Criar a funcionalidade para excluir usuários |  horas | 
 | **09** | FrontEnd | Criar e exibir o manual de usuário (online) |  horas | 
 | **10** | FrontEnd | Adicionar perguntas frequentes ao FAQ  |  horas |
-| **11** | frontEnd | Exibir nos chamados do usuário a solução desse chamado descrita pelo técnico |  horas | 
+| **11** | FrontEnd | Exibir nos chamados do usuário a solução desse chamado descrita pelo técnico |  horas | 
 | **12** | BackEnd | Criar a função de atualização automática do status para atrasado quando o tempo de resolução for excedido |  horas |
 
 ## MVP
