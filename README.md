@@ -42,7 +42,7 @@
 ## Backlog da sprint
 
  ID | Categoria | Tarefa | Estimativa de esforço |
-|:--------------:  | :----------:|:--------------:|
+|:--------------:  | :----------:|:--------------:|:--------------:|
 | **01** | BD | Ajustar a estrutura do banco de dados |  horas |
 | **02** | BD | Alimentar o banco de dados |  horas |
 | **03** | FrontEnd | Ajustar o layout das páginas |  horas |
