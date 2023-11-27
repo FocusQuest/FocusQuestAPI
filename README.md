@@ -41,23 +41,23 @@ Essa sprint foi focada na finalização e melhora de tarefas das sprints anterio
 
 ## Backlog da sprint
 
- ID | Tarefa | Estimativa de esforço |
-|:--------------:  | :----------:|:--------------:|
-| **01** | Fazer ajustes no layout das páginas | 10 horas |
-| **02** | Atualizar o banco de dados | 13 horas |   
-| **03** | Separar o arquivo de rotas para organização do código | 5 horas |  
-| **04** | Exibir o nome do usuário, técnico ou adm no topo da página ao logar | 6 horas | 
-| **05** | Associar o idUsuario aos chamados criados para exibi-los no "meus chamados" | 6 horas | 
-| **06** | Incluir os dados "local" e "máquina" na página "Meus Chamados" | 5 horas |
-| **07** | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 8 horas | 
-| **08** | Adicionar para o Adm a funcionalidade de atribuir prioridade ao chamado | 13 horas |
-| **09** | Exibir o status do chamado conforme seu andamento | 5 horas |
-| **10** | Formatar a exibição da data de criação, início e conclusão do chamado | 5 horas |
-| **11** | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) | 11 horas |
-| **12** | Adicionar para o ADM a funcionalidade de criação de usuário e técnico | 5 horas |
-| **13** | Desenvolver as telas do técnico | 5 horas |
-| **14** | Criar para o técnico a função de assumir chamado | 13 horas |
-| **15** | Encriptar a senha dos usuários do sistema | 5 horas |
+ ID | Categoria | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------:|:--------------:|:--------------:|
+| **01** | FrontEnd | Fazer ajustes no layout das páginas | 10 horas |
+| **02** | BD | Atualizar o banco de dados | 13 horas |   
+| **03** | BackEnd | Separar o arquivo de rotas para organização do código | 5 horas |  
+| **04** | FrontEnd | Exibir o nome do usuário, técnico ou adm no topo da página ao logar | 6 horas | 
+| **05** | FrontEnd | Associar o idUsuario aos chamados criados para exibi-los no "meus chamados" | 6 horas | 
+| **06** | BackEnd | Incluir os dados "local" e "máquina" na página "Meus Chamados" | 5 horas |
+| **07** | BackEnd | Ajustar a funcionalidade de login para que os usuários já existentes no banco consigam logar | 8 horas | 
+| **08** | BackEnd | Adicionar para o Adm a funcionalidade de atribuir prioridade ao chamado | 13 horas |
+| **09** | BackEnd | Exibir o status do chamado conforme seu andamento | 5 horas |
+| **10** | FrontEnd | Formatar a exibição da data de criação, início e conclusão do chamado | 5 horas |
+| **11** | BackEnd | Reorganizar o arquivo “controllers” em arquivos separados (“chamados” e “usuários”) | 11 horas |
+| **12** | BackEnd | Adicionar para o ADM a funcionalidade de criação de usuário e técnico | 5 horas |
+| **13** | FrontEnd | Desenvolver as telas do técnico | 5 horas |
+| **14** | BackEnd | Criar para o técnico a função de assumir chamado | 13 horas |
+| **15** | BackEnd | Encriptar a senha dos usuários do sistema | 5 horas |
 
 ## MVP
 
