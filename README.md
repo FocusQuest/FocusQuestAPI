@@ -57,7 +57,11 @@ Nessa sprint houve a finalização do ciclo de chamados, com a possibilidade de 
 
 ## MVP
 
-((Sprint em andamento) - Inserir o link aqui)
+- Demonstração do usuário:
+https://www.youtube.com/watch?v=VdPHdYxlXpk
+
+- Demonstração do técnico:
+https://www.youtube.com/watch?v=TSAFk3LtE7U
 
 <hr>
 
