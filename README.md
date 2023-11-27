@@ -51,7 +51,7 @@ Nessa sprint houve a finalização do ciclo de chamados, com a possibilidade de 
 | **07** | FrontEnd | Criar a tela para editar dados cadastrais | 3 horas |  
 | **08** | BackEnd | Criar a funcionalidade para excluir usuários | 5 horas | 
 | **09** | FrontEnd | Criar e exibir o manual de usuário (online) | 13 horas | 
-| **10** | FrontEnd | Adicionar perguntas frequentes ao FAQ  | 0 horas |
+| **10** | FrontEnd | Adicionar perguntas frequentes ao FAQ  | 1 horas |
 | **11** | FrontEnd | Exibir nos chamados do usuário a solução desse chamado descrita pelo técnico | 10 horas | 
 | **12** | BackEnd | Criar a função de atualização automática do status para atrasado quando o tempo de resolução for excedido | 12 horas |
 
