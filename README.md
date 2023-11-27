@@ -1,4 +1,7 @@
-<h1 align="center">FocusQuest 🎯</h1>
+<h1 align="center">SAT - Sistema acadêmico de TI 🎯</h1>
+<H5 align="center"> Status do projeto: concluído ✅</H5>
+
+<hr> 
 
 ## Sumário
 
