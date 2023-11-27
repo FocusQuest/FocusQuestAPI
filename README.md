@@ -42,18 +42,18 @@ Segunda sprint desenvolvida, na qual o código começou a ser feito propriamente
 
 ## Backlog da sprint
 
- ID | Tarefa | Estimativa de esforço |
-|:--------------:  | :----------:|:--------------:|
-| **01** | Estudo sobre ORM Prisma | 20 horas |
-| **02** | Estudo para setar NodeJS express com Typescript | 13 horas |   
-| **03** | Adaptação do banco de dados físico para integração com o back-end | 5 horas |
-| **04** | Criação da tela de login em Typescript | 13 horas |  
-| **05** | Criação da tela de abertura de chamados em Typescript | 20 horas |  
-| **06** | Estudo sobre sistemas de login com níveis de acesso | 30 horas | 
-| **07** | Desenvolver a função de login do usuário | 12 horas | 
-| **08** | Desenvolver a função de login do técnico | 12 horas |
-| **09** | Desenvolver a função de login do administrador | 12 horas | 
-| **10** | Estudo sobre React e SPA | 13 horas |
+ ID | Categoria | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------:|:--------------:|:--------------:|
+| **01** | BD | Estudo sobre ORM Prisma | 20 horas |
+| **02** | BackEnd | Estudo para setar NodeJS express com Typescript | 13 horas |   
+| **03** | BD | Adaptação do banco de dados físico para integração com o back-end | 5 horas |
+| **04** | FrontEnd | Criação da tela de login em Typescript | 13 horas |  
+| **05** | FrontEnd | Criação da tela de abertura de chamados em Typescript | 20 horas |  
+| **06** | BackEnd | Estudo sobre sistemas de login com níveis de acesso | 30 horas | 
+| **07** | BackEnd | Desenvolver a função de login do usuário | 12 horas | 
+| **08** | BackEnd | Desenvolver a função de login do técnico | 12 horas |
+| **09** | BackEnd | Desenvolver a função de login do administrador | 12 horas | 
+| **10** | FrontEnd | Estudo sobre React e SPA | 13 horas |
 
 ## MVP
 
