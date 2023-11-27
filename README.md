@@ -106,9 +106,9 @@ Aqui estão as seguintes tecnologias que utilizamos:
 
 | Sprint | Período | Status | Relatório |
 |:-----:|:----------:|:---------:|:---------:|
-| 1 | 04/09/2023 - 24/09/2023 | Concluído  | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-1)  |
+| 1 | 04/09/2023 - 24/09/2023 | Concluído | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-1)  |
 | 2 | 25/09/2023 - 15/10/2023 | Concluído | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-2) |  
 | 3 | 16/10/2023 - 05/11/2023 | Concluído | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-3) | 
-| 4 | 06/11/2023 - 26/11/2023 | Em andamento | - |
+| 4 | 06/11/2023 - 26/11/2023 | Concluído | [Ver relatório](https://github.com/FocusQuest/FocusQuestAPI/tree/Sprint-4) |
 
 [➳ Retornar ao início](#Sumário)
