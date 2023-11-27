@@ -30,19 +30,19 @@
 
 ## Backlog da sprint
 
- ID | Tarefa | Estimativa de esforço |
-|:--------------:  | :----------: |:--------------:|
-| **01** | Criação do mockup do projeto no Figma | 8 horas |
-| **02** | Conversão do mockup em protótipo navegável | 5 horas |   
-| **03** | Estudo da estrutura do sistema para elaboração do modelo de dados | 10 horas |   
-| **05** | Criação do modelo de dados conceitual | 5 horas |  
-| **06** | Conversão do modelo conceitual para o lógico | 3 horas | 
-| **07** | Estudo sobre banco de dados MySQL | 13 horas | 
-| **08** | Estudo sobre o funcionamento de sistemas de gerenciamento de chamados | 13 horas |
-| **09** | Estudo sobre TypeScript | 10 horas | 
-| **10** | Estudo sobre NodeJS | 10 horas |
-| **11** | Estudo sobre React | 12 horas | 
-| **12** | Elaborar um modelo de formulário a ser preenchido para abertuda de chamado | 3 horas | 
+ ID | Categoria | Tarefa | Estimativa de esforço |
+|:--------------:  | :----------:|:--------------:|:--------------:|
+| **01** | FrontEnd |Criação do mockup do projeto no Figma | 8 horas |
+| **02** | FrontEnd |Conversão do mockup em protótipo navegável | 5 horas |   
+| **03** | BD |Estudo da estrutura do sistema para elaboração do modelo de dados | 10 horas |   
+| **05** | BD |Criação do modelo de dados conceitual | 5 horas |  
+| **06** | BD |Conversão do modelo conceitual para o lógico | 3 horas | 
+| **07** | BD |Estudo sobre banco de dados MySQL | 13 horas | 
+| **08** | BackEnd |Estudo sobre o funcionamento de sistemas de gerenciamento de chamados | 13 horas |
+| **09** | BackEnd |Estudo sobre TypeScript | 10 horas | 
+| **10** | BackEnd |Estudo sobre NodeJS | 10 horas |
+| **11** | BackEnd |Estudo sobre React | 12 horas | 
+| **12** | BackEnd |Elaborar um modelo de formulário a ser preenchido para abertura de chamado | 3 horas | 
 
 
 ## MVP
