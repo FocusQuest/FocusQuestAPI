@@ -1,5 +1,4 @@
 <h1 align="center">Sprint 4: 06/11/2023 - 26/11/2023</h1>
-## - SPRINT EM ANDAMENTO -
 
 ## Sumário
 
@@ -12,7 +11,7 @@
 
 ## Sobre a sprint
 
-(Sprint em andamento)
+Nessa sprint houve a finalização do ciclo de chamados, com a possibilidade de respondê-lo e concluí-lo. Também foi desenvolvida a possibilidade do administrador gerar e exportar relatórios, além de também excluir e editar usuários. Agora também há o manual do usuário que pode ser acessado por todos os níveis de acesso, onde explica o funcionamento da ferramenta de acordo com seu nível. Também houve a correção de bugs final para melhor funcionamento do sistema.
 
 ## Tecnologias utilizadas
 
@@ -43,18 +42,18 @@
 
  ID | Categoria | Tarefa | Estimativa de esforço |
 |:--------------:  | :----------:|:--------------:|:--------------:|
-| **01** | BD | Ajustar a estrutura do banco de dados |  horas |
-| **02** | BD | Alimentar o banco de dados |  horas |
-| **03** | FrontEnd | Ajustar o layout das páginas |  horas |
-| **04** | BackEnd | Desenvolver para o adm a função para gerar relatórios |  horas |  
-| **05** | BackEnd | Adicionar para o técnico a função de concluir o chamado |  horas |
-| **06** | BackEnd | Desenvolver a função de logout para os usuários |  horas |  
-| **07** | FrontEnd | Criar a tela para editar dados cadastrais |  horas |  
-| **08** | BackEnd | Criar a funcionalidade para excluir usuários |  horas | 
-| **09** | FrontEnd | Criar e exibir o manual de usuário (online) |  horas | 
-| **10** | FrontEnd | Adicionar perguntas frequentes ao FAQ  |  horas |
-| **11** | FrontEnd | Exibir nos chamados do usuário a solução desse chamado descrita pelo técnico |  horas | 
-| **12** | BackEnd | Criar a função de atualização automática do status para atrasado quando o tempo de resolução for excedido |  horas |
+| **01** | BD | Ajustar a estrutura do banco de dados | 7 horas |
+| **02** | BD | Alimentar o banco de dados | 10 horas |
+| **03** | FrontEnd | Ajustar o layout das páginas | 12 horas |
+| **04** | BackEnd | Desenvolver para o adm a função para gerar relatórios | 12 horas |  
+| **05** | BackEnd | Adicionar para o técnico a função de concluir o chamado | 10 horas |
+| **06** | BackEnd | Desenvolver a função de logout para os usuários | 5 horas |  
+| **07** | FrontEnd | Criar a tela para editar dados cadastrais | 3 horas |  
+| **08** | BackEnd | Criar a funcionalidade para excluir usuários | 5 horas | 
+| **09** | FrontEnd | Criar e exibir o manual de usuário (online) | 13 horas | 
+| **10** | FrontEnd | Adicionar perguntas frequentes ao FAQ  | 0 horas |
+| **11** | FrontEnd | Exibir nos chamados do usuário a solução desse chamado descrita pelo técnico | 10 horas | 
+| **12** | BackEnd | Criar a função de atualização automática do status para atrasado quando o tempo de resolução for excedido | 12 horas |
 
 ## MVP
 
