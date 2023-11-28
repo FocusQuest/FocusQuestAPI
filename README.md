@@ -63,6 +63,9 @@ https://www.youtube.com/watch?v=VdPHdYxlXpk
 - Demonstração do técnico:
 https://www.youtube.com/watch?v=TSAFk3LtE7U
 
+- Demonstração do Administrador:
+https://youtu.be/JQ2jtEcftic?si=HDp7_tvPqk7kb6k0
+
 <hr>
 
 [--> Retornar ao inicio](#Sumário)
